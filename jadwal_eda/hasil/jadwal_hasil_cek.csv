@@ -1,0 +1,601 @@
+﻿id_jadwal,kode_matakuliah,nama_matakuliah,sks,id_dosen,id_kelompok,jumlah_mahasiswa,id_ruang,kapasitas_ruang,hari,jam_mulai,jam_selesai,preferensi_dosen,preferensi_mahasiswa,mulai_menit,selesai_menit,periode,durasi_menit,status_waktu_valid,status_durasi_sks_valid,status_kapasitas_valid,kapasitas_kurang,cocok_dosen,cocok_mahasiswa,skor_keselarasan,bentrok_dosen,bentrok_kelompok,bentrok_ruang,ada_bentrok
+JDW0001,MK07,Rekayasa Perangkat Lunak,3,DSN025,KLP016,27,R14,40,Jumat,10:20,12:50,Sore,Pagi,620,770,Pagi,150,True,True,True,False,False,True,50.0,True,True,True,True
+JDW0002,MK17,Komputer Vision,3,DSN067,KLP030,42,R18,50,Kamis,10:20,12:50,Pagi,Siang,620,770,Pagi,150,True,True,True,False,True,False,50.0,False,True,True,True
+JDW0003,MK16,Analisis dan Desain Sistem,3,DSN064,KLP036,44,R28,60,Selasa,16:20,18:50,Siang,Sore,980,1130,Sore,150,True,True,True,False,False,True,50.0,False,False,True,True
+JDW0004,MK10,Kecerdasan Buatan,3,DSN038,KLP040,37,R35,25,Selasa,13:00,15:30,Siang,Siang,780,930,Siang,150,True,True,True,True,True,True,100.0,True,True,True,True
+JDW0005,MK05,Kalkulus,3,DSN017,KLP023,28,R18,50,Senin,14:40,17:10,Siang,Pagi,880,1030,Siang,150,True,True,True,False,True,False,50.0,True,True,True,True
+JDW0006,MK09,Sistem Operasi,3,DSN033,KLP044,37,R34,60,Rabu,16:20,18:50,Pagi,Sore,980,1130,Sore,150,True,True,True,False,False,True,50.0,True,False,False,True
+JDW0007,MK17,Komputer Vision,3,DSN067,KLP055,49,R20,25,Selasa,14:40,17:10,Pagi,Siang,880,1030,Siang,150,True,True,True,True,False,True,50.0,False,False,True,True
+JDW0008,MK03,Struktur Data,3,DSN010,KLP028,41,R35,25,Selasa,13:00,15:30,Siang,Pagi,780,930,Siang,150,True,True,True,True,True,False,50.0,False,False,True,True
+JDW0009,MK15,Interaksi Manusia Komputer,2,DSN058,KLP023,28,R34,60,Kamis,13:00,14:40,Siang,Pagi,780,880,Siang,100,True,True,True,False,True,False,50.0,False,False,False,False
+JDW0010,MK04,Statistika,3,DSN013,KLP004,22,R33,45,Jumat,16:20,18:50,Pagi,Siang,980,1130,Sore,150,True,True,True,False,False,False,0.0,True,True,False,True
+JDW0011,MK12,Pembelajaran Mesin,3,DSN048,KLP024,20,R23,60,Kamis,07:00,09:30,,Sore,420,570,Pagi,150,True,True,True,False,,False,,False,True,True,True
+JDW0012,MK02,Basis Data,3,DSN006,KLP009,32,R20,25,Kamis,07:00,09:30,Pagi,Siang,420,570,Pagi,150,True,True,True,True,True,False,50.0,False,True,True,True
+JDW0013,MK10,Kecerdasan Buatan,3,DSN037,KLP052,27,R12,40,Senin,08:40,11:10,Pagi,Pagi,520,670,Pagi,150,True,True,True,False,True,True,100.0,False,True,True,True
+JDW0014,MK14,Keamanan Informasi,3,DSN056,KLP002,21,R32,40,Jumat,14:40,17:10,Siang,Pagi,880,1030,Siang,150,True,True,True,False,True,False,50.0,True,True,True,True
+JDW0015,MK15,Interaksi Manusia Komputer,2,DSN058,KLP016,27,R19,35,Jumat,13:00,14:40,Siang,Pagi,780,880,Siang,100,True,True,True,False,True,False,50.0,False,False,True,True
+JDW0016,MK07,Rekayasa Perangkat Lunak,3,DSN027,KLP030,42,R11,60,Jumat,07:00,09:30,Sore,Siang,420,570,Pagi,150,True,True,True,False,False,False,0.0,True,False,True,True
+JDW0017,MK10,Kecerdasan Buatan,3,DSN039,KLP037,45,R33,45,Jumat,08:40,11:10,Pagi,Pagi,520,670,Pagi,150,True,True,True,False,True,True,100.0,False,True,False,True
+JDW0018,MK12,Pembelajaran Mesin,3,DSN048,KLP006,35,R27,60,Jumat,13:00,15:30,,,780,930,Siang,150,True,True,True,False,,,,True,True,True,True
+JDW0019,MK15,Interaksi Manusia Komputer,2,DSN058,KLP059,32,R23,60,Senin,16:20,18:00,Siang,Siang,980,1080,Sore,100,True,True,True,False,False,False,0.0,False,True,True,True
+JDW0020,MK02,Basis Data,3,DSN008,KLP032,29,R16,25,Rabu,07:00,09:30,Pagi,,420,570,Pagi,150,True,True,True,True,True,,,True,True,True,True
+JDW0021,MK12,Pembelajaran Mesin,3,DSN047,KLP025,26,R08,40,Selasa,13:00,15:30,Pagi,Siang,780,930,Siang,150,True,True,True,False,False,True,50.0,False,False,False,False
+JDW0022,MK11,Data Mining,3,DSN043,KLP023,28,R26,45,Kamis,10:20,12:50,Siang,Pagi,620,770,Pagi,150,True,True,True,False,False,True,50.0,False,True,True,True
+JDW0023,MK13,Pemrograman Web,3,DSN051,KLP060,41,R22,60,Senin,07:00,09:30,Siang,Siang,420,570,Pagi,150,True,True,True,False,False,False,0.0,True,False,True,True
+JDW0024,MK16,Analisis dan Desain Sistem,3,DSN063,KLP031,20,R01,60,Selasa,16:20,18:50,Sore,Sore,980,1130,Sore,150,True,True,True,False,True,True,100.0,True,True,True,True
+JDW0025,MK09,Sistem Operasi,3,DSN033,KLP037,45,R07,40,Kamis,16:20,18:50,Pagi,Pagi,980,1130,Sore,150,True,True,True,True,False,False,0.0,True,False,False,True
+JDW0026,MK12,Pembelajaran Mesin,3,DSN048,KLP003,48,R26,45,Senin,14:40,17:10,,Pagi,880,1030,Siang,150,True,True,True,True,,False,,True,True,False,True
+JDW0027,MK02,Basis Data,3,DSN005,KLP010,48,R14,40,Rabu,16:20,18:50,Pagi,Siang,980,1130,Sore,150,True,True,True,True,False,False,0.0,True,False,True,True
+JDW0028,MK06,Aljabar Linear,3,DSN022,KLP029,22,R12,40,Selasa,07:00,09:30,,Sore,420,570,Pagi,150,True,True,True,False,,False,,True,False,True,True
+JDW0029,MK06,Aljabar Linear,3,DSN024,KLP026,28,R34,60,Kamis,10:20,12:50,Pagi,Siang,620,770,Pagi,150,True,True,True,False,True,False,50.0,True,True,True,True
+JDW0030,MK16,Analisis dan Desain Sistem,3,DSN062,KLP026,28,R18,50,Kamis,10:20,12:50,Pagi,Siang,620,770,Pagi,150,True,True,True,False,True,False,50.0,True,True,True,True
+JDW0031,MK13,Pemrograman Web,3,DSN051,KLP004,22,R18,50,Kamis,13:00,15:30,Siang,Siang,780,930,Siang,150,True,True,True,False,True,True,100.0,False,False,False,False
+JDW0032,MK10,Kecerdasan Buatan,3,DSN037,KLP006,35,R13,45,Kamis,16:20,18:50,Pagi,,980,1130,Sore,150,True,True,True,False,False,,,False,True,True,True
+JDW0033,MK03,Struktur Data,3,DSN011,KLP026,28,R31,60,Kamis,13:00,15:30,Pagi,Siang,780,930,Siang,150,True,True,True,False,False,True,50.0,True,True,True,True
+JDW0034,MK11,Data Mining,3,DSN042,KLP043,46,R08,40,Rabu,10:20,12:50,Siang,Siang,620,770,Pagi,150,True,True,True,True,False,False,0.0,True,True,True,True
+JDW0035,MK08,Jaringan Komputer,3,DSN032,KLP026,28,R10,50,Jumat,07:00,09:30,Siang,Siang,420,570,Pagi,150,True,True,True,False,False,False,0.0,False,False,True,True
+JDW0036,MK04,Statistika,3,DSN016,KLP043,46,R35,25,Kamis,16:20,18:50,Siang,Siang,980,1130,Sore,150,True,True,True,True,False,False,0.0,True,True,True,True
+JDW0037,MK03,Struktur Data,3,DSN010,KLP015,48,R31,60,Senin,16:20,18:50,Siang,Pagi,980,1130,Sore,150,True,True,True,False,False,False,0.0,False,False,True,True
+JDW0038,MK07,Rekayasa Perangkat Lunak,3,DSN027,KLP003,48,R12,40,Kamis,16:20,18:50,Sore,Pagi,980,1130,Sore,150,True,True,True,True,True,False,50.0,False,True,True,True
+JDW0039,MK04,Statistika,3,DSN015,KLP021,32,R35,25,Kamis,13:00,15:30,Pagi,Siang,780,930,Siang,150,True,True,True,True,False,True,50.0,False,False,True,True
+JDW0040,MK03,Struktur Data,3,DSN009,KLP024,20,R09,25,Kamis,08:40,11:10,,Sore,520,670,Pagi,150,True,True,True,False,,False,,True,True,True,True
+JDW0041,MK12,Pembelajaran Mesin,3,DSN046,KLP041,26,R30,50,Selasa,16:20,18:50,Siang,Sore,980,1130,Sore,150,True,True,True,False,False,True,50.0,False,True,False,True
+JDW0042,MK10,Kecerdasan Buatan,3,DSN037,KLP018,29,R27,60,Kamis,08:40,11:10,Pagi,Pagi,520,670,Pagi,150,True,True,True,False,True,True,100.0,True,True,False,True
+JDW0043,MK14,Keamanan Informasi,3,DSN054,KLP003,48,R25,50,Senin,13:00,15:30,Sore,Pagi,780,930,Siang,150,True,True,True,False,False,False,0.0,False,True,True,True
+JDW0044,MK17,Komputer Vision,3,DSN065,KLP038,43,R19,35,Rabu,07:00,09:30,Pagi,Pagi,420,570,Pagi,150,True,True,True,True,True,True,100.0,False,True,True,True
+JDW0045,MK07,Rekayasa Perangkat Lunak,3,DSN027,KLP004,22,R25,50,Jumat,13:00,15:30,Sore,Siang,780,930,Siang,150,True,True,True,False,False,True,50.0,True,False,True,True
+JDW0046,MK01,Algoritma dan Pemrograman,3,DSN001,KLP047,47,R07,40,Rabu,13:00,15:30,Siang,Pagi,780,930,Siang,150,True,True,True,True,True,False,50.0,True,True,False,True
+JDW0047,MK05,Kalkulus,3,DSN019,KLP017,23,R30,50,Kamis,13:00,15:30,Pagi,Siang,780,930,Siang,150,True,True,True,False,False,True,50.0,False,False,False,False
+JDW0048,MK12,Pembelajaran Mesin,3,DSN048,KLP031,20,R17,25,Rabu,16:20,18:50,,Sore,980,1130,Sore,150,True,True,True,False,,True,,False,False,True,True
+JDW0049,MK05,Kalkulus,3,DSN017,KLP039,21,R18,50,Senin,08:40,11:10,Siang,Siang,520,670,Pagi,150,True,True,True,False,False,False,0.0,True,True,True,True
+JDW0050,MK08,Jaringan Komputer,3,DSN030,KLP032,29,R31,60,Jumat,16:20,18:50,Siang,,980,1130,Sore,150,True,True,True,False,False,,,False,False,True,True
+JDW0051,MK02,Basis Data,3,DSN005,KLP042,35,R19,35,Rabu,16:20,18:50,Pagi,Sore,980,1130,Sore,150,True,True,True,False,False,True,50.0,True,True,True,True
+JDW0052,MK08,Jaringan Komputer,3,DSN032,KLP057,25,R26,45,Senin,08:40,11:10,Siang,Siang,520,670,Pagi,150,True,True,True,False,False,False,0.0,False,True,True,True
+JDW0053,MK08,Jaringan Komputer,3,DSN032,KLP021,32,R31,60,Selasa,14:40,17:10,Siang,Siang,880,1030,Siang,150,True,True,True,False,True,True,100.0,False,True,True,True
+JDW0054,MK01,Algoritma dan Pemrograman,3,DSN003,KLP027,36,R13,45,Senin,08:40,11:10,Pagi,Siang,520,670,Pagi,150,True,True,True,False,True,False,50.0,False,False,True,True
+JDW0055,MK04,Statistika,3,DSN016,KLP044,37,R04,30,Jumat,07:00,09:30,Siang,Sore,420,570,Pagi,150,True,True,True,True,False,False,0.0,True,True,False,True
+JDW0056,MK09,Sistem Operasi,3,DSN035,KLP004,22,R11,60,Senin,08:40,11:10,Sore,Siang,520,670,Pagi,150,True,True,True,False,False,False,0.0,True,False,True,True
+JDW0057,MK13,Pemrograman Web,3,DSN052,KLP043,46,R15,25,Kamis,13:00,15:30,Siang,Siang,780,930,Siang,150,True,True,True,True,True,True,100.0,False,True,True,True
+JDW0058,MK03,Struktur Data,3,DSN010,KLP060,41,R16,25,Kamis,08:40,11:10,Siang,Siang,520,670,Pagi,150,True,True,True,True,False,False,0.0,True,False,True,True
+JDW0059,MK06,Aljabar Linear,3,DSN023,KLP014,41,R35,25,Selasa,08:40,11:10,Pagi,Pagi,520,670,Pagi,150,True,True,True,True,True,True,100.0,True,False,True,True
+JDW0060,MK09,Sistem Operasi,3,DSN035,KLP038,43,R03,40,Rabu,16:20,18:50,Sore,Pagi,980,1130,Sore,150,True,True,True,True,True,False,50.0,False,False,True,True
+JDW0061,MK02,Basis Data,3,DSN006,KLP005,24,R04,30,Selasa,07:00,09:30,Pagi,Siang,420,570,Pagi,150,True,True,True,False,True,False,50.0,False,True,True,True
+JDW0062,MK03,Struktur Data,3,DSN011,KLP031,20,R29,30,Kamis,14:40,17:10,Pagi,Sore,880,1030,Siang,150,True,True,True,False,False,False,0.0,True,True,False,True
+JDW0063,MK16,Analisis dan Desain Sistem,3,DSN064,KLP004,22,R07,40,Selasa,08:40,11:10,Siang,Siang,520,670,Pagi,150,True,True,True,False,False,False,0.0,False,False,True,True
+JDW0064,MK15,Interaksi Manusia Komputer,2,DSN058,KLP053,36,R04,30,Senin,07:00,08:40,Siang,Siang,420,520,Pagi,100,True,True,True,True,False,False,0.0,False,False,False,False
+JDW0065,MK01,Algoritma dan Pemrograman,3,DSN003,KLP028,41,R31,60,Senin,16:20,18:50,Pagi,Pagi,980,1130,Sore,150,True,True,True,False,False,False,0.0,False,False,True,True
+JDW0066,MK10,Kecerdasan Buatan,3,DSN039,KLP051,42,R33,45,Senin,10:20,12:50,Pagi,Pagi,620,770,Pagi,150,True,True,True,False,True,True,100.0,True,False,True,True
+JDW0067,MK14,Keamanan Informasi,3,DSN053,KLP048,32,R27,60,Selasa,14:40,17:10,Pagi,Siang,880,1030,Siang,150,True,True,True,False,False,True,50.0,False,False,True,True
+JDW0068,MK04,Statistika,3,DSN015,KLP026,28,R04,30,Rabu,08:40,11:10,Pagi,Siang,520,670,Pagi,150,True,True,True,False,True,False,50.0,False,True,True,True
+JDW0069,MK11,Data Mining,3,DSN042,KLP025,26,R27,60,Jumat,07:00,09:30,Siang,Siang,420,570,Pagi,150,True,True,True,False,False,False,0.0,True,False,False,True
+JDW0070,MK09,Sistem Operasi,3,DSN036,KLP014,41,R28,60,Selasa,16:20,18:50,Siang,Pagi,980,1130,Sore,150,True,True,True,False,False,False,0.0,False,True,True,True
+JDW0071,MK06,Aljabar Linear,3,DSN023,KLP036,44,R06,25,Rabu,16:20,18:50,Pagi,Sore,980,1130,Sore,150,True,True,True,True,False,True,50.0,False,False,True,True
+JDW0072,MK01,Algoritma dan Pemrograman,3,DSN002,KLP026,28,R35,25,Jumat,16:20,18:50,Pagi,Siang,980,1130,Sore,150,True,True,True,True,False,False,0.0,True,False,True,True
+JDW0073,MK17,Komputer Vision,3,DSN066,KLP020,32,R01,60,Selasa,13:00,15:30,Siang,Siang,780,930,Siang,150,True,True,True,False,True,True,100.0,False,True,True,True
+JDW0074,MK10,Kecerdasan Buatan,3,DSN038,KLP009,32,R14,40,Kamis,07:00,09:30,Siang,Siang,420,570,Pagi,150,True,True,True,False,False,False,0.0,True,True,True,True
+JDW0075,MK11,Data Mining,3,DSN044,KLP051,42,R35,25,Selasa,10:20,12:50,Siang,Pagi,620,770,Pagi,150,True,True,True,True,False,True,50.0,False,False,True,True
+JDW0076,MK10,Kecerdasan Buatan,3,DSN038,KLP053,36,R16,25,Jumat,10:20,12:50,Siang,Siang,620,770,Pagi,150,True,True,True,True,False,False,0.0,False,False,True,True
+JDW0077,MK01,Algoritma dan Pemrograman,3,DSN002,KLP045,50,R19,35,Kamis,07:00,09:30,Pagi,Siang,420,570,Pagi,150,True,True,True,True,True,False,50.0,False,False,True,True
+JDW0078,MK07,Rekayasa Perangkat Lunak,3,DSN025,KLP043,46,R35,25,Senin,13:00,15:30,Sore,Siang,780,930,Siang,150,True,True,True,True,False,True,50.0,False,False,False,False
+JDW0079,MK06,Aljabar Linear,3,DSN024,KLP047,47,R35,25,Selasa,10:20,12:50,Pagi,Pagi,620,770,Pagi,150,True,True,True,True,True,True,100.0,True,True,True,True
+JDW0080,MK10,Kecerdasan Buatan,3,DSN038,KLP042,35,R31,60,Kamis,10:20,12:50,Siang,Sore,620,770,Pagi,150,True,True,True,False,False,False,0.0,True,False,False,True
+JDW0081,MK09,Sistem Operasi,3,DSN035,KLP035,43,R09,25,Jumat,07:00,09:30,Sore,Siang,420,570,Pagi,150,True,True,True,True,False,False,0.0,False,True,True,True
+JDW0082,MK16,Analisis dan Desain Sistem,3,DSN062,KLP001,22,R29,30,Senin,16:20,18:50,Pagi,Pagi,980,1130,Sore,150,True,True,True,False,False,False,0.0,False,True,True,True
+JDW0083,MK12,Pembelajaran Mesin,3,DSN047,KLP035,43,R21,60,Rabu,10:20,12:50,Pagi,Siang,620,770,Pagi,150,True,True,True,False,True,False,50.0,False,True,True,True
+JDW0084,MK05,Kalkulus,3,DSN018,KLP016,27,R18,50,Rabu,14:40,17:10,Siang,Pagi,880,1030,Siang,150,True,True,True,False,True,False,50.0,True,True,False,True
+JDW0085,MK01,Algoritma dan Pemrograman,3,DSN001,KLP057,25,R11,60,Jumat,08:40,11:10,Siang,Siang,520,670,Pagi,150,True,True,True,False,False,False,0.0,False,False,True,True
+JDW0086,MK12,Pembelajaran Mesin,3,DSN045,KLP051,42,R27,60,Kamis,13:00,15:30,Pagi,Pagi,780,930,Siang,150,True,True,True,False,False,False,0.0,False,False,False,False
+JDW0087,MK03,Struktur Data,3,DSN011,KLP003,48,R23,60,Senin,16:20,18:50,Pagi,Pagi,980,1130,Sore,150,True,True,True,False,False,False,0.0,False,True,True,True
+JDW0088,MK15,Interaksi Manusia Komputer,2,DSN057,KLP052,27,R20,25,Senin,14:40,16:20,Pagi,Pagi,880,980,Siang,100,True,True,True,True,False,False,0.0,False,True,True,True
+JDW0089,MK12,Pembelajaran Mesin,3,DSN048,KLP001,22,R16,25,Kamis,16:20,18:50,,Pagi,980,1130,Sore,150,True,True,True,False,,False,,False,False,True,True
+JDW0090,MK13,Pemrograman Web,3,DSN050,KLP042,35,R04,30,Rabu,08:40,11:10,Siang,Sore,520,670,Pagi,150,True,True,True,True,False,False,0.0,False,False,True,True
+JDW0091,MK03,Struktur Data,3,DSN011,KLP020,32,R21,60,Jumat,13:00,15:30,Pagi,Siang,780,930,Siang,150,True,True,True,False,False,True,50.0,False,True,True,True
+JDW0092,MK17,Komputer Vision,3,DSN066,KLP053,36,R22,60,Jumat,16:20,18:50,Siang,Siang,980,1130,Sore,150,True,True,True,False,False,False,0.0,False,True,False,True
+JDW0093,MK10,Kecerdasan Buatan,3,DSN040,KLP046,24,R32,40,Senin,14:40,17:10,Siang,Sore,880,1030,Siang,150,True,True,True,False,True,False,50.0,True,True,True,True
+JDW0094,MK04,Statistika,3,DSN013,KLP016,27,R21,60,Senin,08:40,11:10,Pagi,Pagi,520,670,Pagi,150,True,True,True,False,True,True,100.0,False,True,True,True
+JDW0095,MK16,Analisis dan Desain Sistem,3,DSN064,KLP030,42,R26,45,Rabu,16:20,18:50,Siang,Siang,980,1130,Sore,150,True,True,True,False,False,False,0.0,False,False,True,True
+JDW0096,MK14,Keamanan Informasi,3,DSN056,KLP046,24,R32,40,Rabu,07:00,09:30,Siang,Sore,420,570,Pagi,150,True,True,True,False,False,False,0.0,True,False,True,True
+JDW0097,MK07,Rekayasa Perangkat Lunak,3,DSN026,KLP041,26,R34,60,Kamis,14:40,17:10,,Sore,880,1030,Siang,150,True,True,True,False,,False,,True,True,False,True
+JDW0098,MK12,Pembelajaran Mesin,3,DSN046,KLP038,43,R01,60,Selasa,08:40,11:10,Siang,Pagi,520,670,Pagi,150,True,True,True,False,False,True,50.0,False,True,True,True
+JDW0099,MK03,Struktur Data,3,DSN011,KLP030,42,R07,40,Jumat,16:20,18:50,Pagi,Siang,980,1130,Sore,150,True,True,True,True,False,False,0.0,False,False,False,False
+JDW0100,MK17,Komputer Vision,3,DSN067,KLP052,27,R10,50,Senin,07:00,09:30,Pagi,Pagi,420,570,Pagi,150,True,True,True,False,True,True,100.0,False,True,True,True
+JDW0101,MK17,Komputer Vision,3,DSN068,KLP031,20,R15,25,Kamis,14:40,17:10,Siang,Sore,880,1030,Siang,150,True,True,True,False,True,False,50.0,False,True,True,True
+JDW0102,MK08,Jaringan Komputer,3,DSN032,KLP047,47,R27,60,Jumat,13:00,15:30,Siang,Pagi,780,930,Siang,150,True,True,True,False,True,False,50.0,False,False,True,True
+JDW0103,MK05,Kalkulus,3,DSN017,KLP058,20,R13,45,Kamis,10:20,12:50,Siang,Siang,620,770,Pagi,150,True,True,True,False,False,False,0.0,False,False,True,True
+JDW0104,MK07,Rekayasa Perangkat Lunak,3,DSN025,KLP007,22,R32,40,Jumat,16:20,18:50,Sore,Pagi,980,1130,Sore,150,True,True,True,False,True,False,50.0,False,True,True,True
+JDW0105,MK04,Statistika,3,DSN015,KLP012,28,R25,50,Senin,16:20,18:50,Pagi,Pagi,980,1130,Sore,150,True,True,True,False,False,False,0.0,True,False,True,True
+JDW0106,MK09,Sistem Operasi,3,DSN033,KLP022,37,R12,40,Kamis,14:40,17:10,Pagi,Pagi,880,1030,Siang,150,True,True,True,False,False,False,0.0,True,True,True,True
+JDW0107,MK18,Sains Data,3,DSN072,KLP026,28,R11,60,Kamis,07:00,09:30,Sore,Siang,420,570,Pagi,150,True,True,True,False,False,False,0.0,False,True,True,True
+JDW0108,MK07,Rekayasa Perangkat Lunak,3,DSN027,KLP029,22,R33,45,Senin,08:40,11:10,Sore,Sore,520,670,Pagi,150,True,True,True,False,False,False,0.0,False,True,True,True
+JDW0109,MK05,Kalkulus,3,DSN020,KLP005,24,R35,25,Kamis,10:20,12:50,Siang,Siang,620,770,Pagi,150,True,True,True,False,False,False,0.0,True,True,True,True
+JDW0110,MK14,Keamanan Informasi,3,DSN055,KLP056,24,R25,50,Senin,13:00,15:30,Sore,Siang,780,930,Siang,150,True,True,True,False,False,True,50.0,False,False,True,True
+JDW0111,MK15,Interaksi Manusia Komputer,2,DSN059,KLP019,50,R09,25,Kamis,10:20,12:00,Pagi,Siang,620,720,Pagi,100,True,True,True,True,True,False,50.0,False,False,True,True
+JDW0112,MK15,Interaksi Manusia Komputer,2,DSN057,KLP025,26,R19,35,Kamis,13:00,14:40,Pagi,Siang,780,880,Siang,100,True,True,True,False,False,True,50.0,False,False,False,False
+JDW0113,MK17,Komputer Vision,3,DSN068,KLP022,37,R26,45,Senin,08:40,11:10,Siang,Pagi,520,670,Pagi,150,True,True,True,False,False,True,50.0,False,True,True,True
+JDW0114,MK14,Keamanan Informasi,3,DSN056,KLP024,20,R04,30,Jumat,10:20,12:50,Siang,Sore,620,770,Pagi,150,True,True,True,False,False,False,0.0,True,False,False,True
+JDW0115,MK17,Komputer Vision,3,DSN067,KLP032,29,R16,25,Selasa,07:00,09:30,Pagi,,420,570,Pagi,150,True,True,True,True,True,,,False,True,True,True
+JDW0116,MK02,Basis Data,3,DSN007,KLP056,24,R03,40,Rabu,14:40,17:10,Pagi,Siang,880,1030,Siang,150,True,True,True,False,False,True,50.0,False,False,True,True
+JDW0117,MK12,Pembelajaran Mesin,3,DSN047,KLP059,32,R30,50,Senin,13:00,15:30,Pagi,Siang,780,930,Siang,150,True,True,True,False,False,True,50.0,False,True,False,True
+JDW0118,MK12,Pembelajaran Mesin,3,DSN048,KLP022,37,R34,60,Selasa,14:40,17:10,,Pagi,880,1030,Siang,150,True,True,True,False,,False,,False,True,True,True
+JDW0119,MK16,Analisis dan Desain Sistem,3,DSN063,KLP043,46,R01,60,Rabu,16:20,18:50,Sore,Siang,980,1130,Sore,150,True,True,True,False,True,False,50.0,False,False,True,True
+JDW0120,MK06,Aljabar Linear,3,DSN021,KLP045,50,R21,60,Kamis,10:20,12:50,Pagi,Siang,620,770,Pagi,150,True,True,True,False,True,False,50.0,False,False,False,False
+JDW0121,MK15,Interaksi Manusia Komputer,2,DSN059,KLP044,37,R21,60,Rabu,10:20,12:00,Pagi,Sore,620,720,Pagi,100,True,True,True,False,True,False,50.0,False,True,True,True
+JDW0122,MK15,Interaksi Manusia Komputer,2,DSN057,KLP018,29,R34,60,Senin,16:20,18:00,Pagi,Pagi,980,1080,Sore,100,True,True,True,False,False,False,0.0,False,True,True,True
+JDW0123,MK05,Kalkulus,3,DSN017,KLP032,29,R08,40,Rabu,16:20,18:50,Siang,,980,1130,Sore,150,True,True,True,False,False,,,False,True,True,True
+JDW0124,MK13,Pemrograman Web,3,DSN050,KLP036,44,R22,60,Selasa,07:00,09:30,Siang,Sore,420,570,Pagi,150,True,True,True,False,False,False,0.0,True,True,True,True
+JDW0125,MK18,Sains Data,3,DSN069,KLP013,50,R12,40,Rabu,16:20,18:50,Pagi,,980,1130,Sore,150,True,True,True,True,False,,,False,False,False,False
+JDW0126,MK15,Interaksi Manusia Komputer,2,DSN057,KLP054,33,R09,25,Selasa,14:40,16:20,Pagi,,880,980,Siang,100,True,True,True,True,False,,,False,False,False,False
+JDW0127,MK15,Interaksi Manusia Komputer,2,DSN059,KLP036,44,R21,60,Selasa,14:40,16:20,Pagi,Sore,880,980,Siang,100,True,True,True,False,False,False,0.0,True,False,True,True
+JDW0128,MK05,Kalkulus,3,DSN020,KLP057,25,R27,60,Selasa,13:00,15:30,Siang,Siang,780,930,Siang,150,True,True,True,False,True,True,100.0,True,True,True,True
+JDW0129,MK09,Sistem Operasi,3,DSN035,KLP003,48,R05,60,Rabu,10:20,12:50,Sore,Pagi,620,770,Pagi,150,True,True,True,False,False,True,50.0,False,False,False,False
+JDW0130,MK18,Sains Data,3,DSN069,KLP043,46,R16,25,Kamis,14:40,17:10,Pagi,Siang,880,1030,Siang,150,True,True,True,True,False,True,50.0,True,True,True,True
+JDW0131,MK08,Jaringan Komputer,3,DSN031,KLP052,27,R28,60,Rabu,14:40,17:10,,Pagi,880,1030,Siang,150,True,True,True,False,,False,,True,True,False,True
+JDW0132,MK02,Basis Data,3,DSN007,KLP033,49,R04,30,Kamis,16:20,18:50,Pagi,Sore,980,1130,Sore,150,True,True,True,True,False,True,50.0,False,False,False,False
+JDW0133,MK02,Basis Data,3,DSN007,KLP016,27,R34,60,Selasa,13:00,15:30,Pagi,Pagi,780,930,Siang,150,True,True,True,False,False,False,0.0,False,False,True,True
+JDW0134,MK12,Pembelajaran Mesin,3,DSN045,KLP020,32,R05,60,Selasa,10:20,12:50,Pagi,Siang,620,770,Pagi,150,True,True,True,False,True,False,50.0,False,False,False,False
+JDW0135,MK03,Struktur Data,3,DSN012,KLP013,50,R05,60,Jumat,08:40,11:10,Pagi,,520,670,Pagi,150,True,True,True,False,True,,,False,True,True,True
+JDW0136,MK14,Keamanan Informasi,3,DSN053,KLP045,50,R18,50,Selasa,07:00,09:30,Pagi,Siang,420,570,Pagi,150,True,True,True,False,True,False,50.0,False,True,False,True
+JDW0137,MK05,Kalkulus,3,DSN020,KLP042,35,R10,50,Selasa,14:40,17:10,Siang,Sore,880,1030,Siang,150,True,True,True,False,True,False,50.0,True,True,True,True
+JDW0138,MK01,Algoritma dan Pemrograman,3,DSN003,KLP012,28,R25,50,Jumat,13:00,15:30,Pagi,Pagi,780,930,Siang,150,True,True,True,False,False,False,0.0,True,True,True,True
+JDW0139,MK06,Aljabar Linear,3,DSN023,KLP035,43,R35,25,Kamis,16:20,18:50,Pagi,Siang,980,1130,Sore,150,True,True,True,True,False,False,0.0,False,True,True,True
+JDW0140,MK02,Basis Data,3,DSN008,KLP003,48,R16,25,Kamis,14:40,17:10,Pagi,Pagi,880,1030,Siang,150,True,True,True,True,False,False,0.0,False,True,True,True
+JDW0141,MK08,Jaringan Komputer,3,DSN029,KLP024,20,R05,60,Selasa,14:40,17:10,Siang,Sore,880,1030,Siang,150,True,True,True,False,True,False,50.0,False,False,True,True
+JDW0142,MK08,Jaringan Komputer,3,DSN032,KLP020,32,R24,40,Rabu,13:00,15:30,Siang,Siang,780,930,Siang,150,True,True,True,False,True,True,100.0,False,True,False,True
+JDW0143,MK13,Pemrograman Web,3,DSN049,KLP033,49,R07,40,Rabu,07:00,09:30,Pagi,Sore,420,570,Pagi,150,True,True,True,True,True,False,50.0,False,True,True,True
+JDW0144,MK17,Komputer Vision,3,DSN065,KLP033,49,R06,25,Kamis,13:00,15:30,Pagi,Sore,780,930,Siang,150,True,True,True,True,False,False,0.0,False,False,True,True
+JDW0145,MK03,Struktur Data,3,DSN010,KLP055,49,R03,40,Rabu,10:20,12:50,Siang,Siang,620,770,Pagi,150,True,True,True,True,False,False,0.0,False,False,True,True
+JDW0146,MK10,Kecerdasan Buatan,3,DSN037,KLP060,41,R16,25,Jumat,10:20,12:50,Pagi,Siang,620,770,Pagi,150,True,True,True,True,True,False,50.0,False,False,True,True
+JDW0147,MK12,Pembelajaran Mesin,3,DSN045,KLP045,50,R07,40,Senin,08:40,11:10,Pagi,Siang,520,670,Pagi,150,True,True,True,True,True,False,50.0,False,False,False,False
+JDW0148,MK14,Keamanan Informasi,3,DSN054,KLP027,36,R28,60,Selasa,08:40,11:10,Sore,Siang,520,670,Pagi,150,True,True,True,False,False,False,0.0,False,False,True,True
+JDW0149,MK06,Aljabar Linear,3,DSN021,KLP033,49,R31,60,Rabu,07:00,09:30,Pagi,Sore,420,570,Pagi,150,True,True,True,False,True,False,50.0,False,True,True,True
+JDW0150,MK13,Pemrograman Web,3,DSN050,KLP026,28,R06,25,Kamis,13:00,15:30,Siang,Siang,780,930,Siang,150,True,True,True,True,True,True,100.0,False,True,True,True
+JDW0151,MK18,Sains Data,3,DSN071,KLP059,32,R18,50,Jumat,16:20,18:50,Siang,Siang,980,1130,Sore,150,True,True,True,False,False,False,0.0,False,False,False,False
+JDW0152,MK09,Sistem Operasi,3,DSN035,KLP013,50,R12,40,Kamis,14:40,17:10,Sore,,880,1030,Siang,150,True,True,True,True,False,,,True,False,True,True
+JDW0153,MK14,Keamanan Informasi,3,DSN056,KLP036,44,R19,35,Kamis,10:20,12:50,Siang,Sore,620,770,Pagi,150,True,True,True,True,False,False,0.0,False,False,False,False
+JDW0154,MK18,Sains Data,3,DSN072,KLP023,28,R34,60,Kamis,10:20,12:50,Sore,Pagi,620,770,Pagi,150,True,True,True,False,False,True,50.0,True,True,True,True
+JDW0155,MK01,Algoritma dan Pemrograman,3,DSN002,KLP060,41,R16,25,Jumat,16:20,18:50,Pagi,Siang,980,1130,Sore,150,True,True,True,True,False,False,0.0,True,True,True,True
+JDW0156,MK13,Pemrograman Web,3,DSN050,KLP013,50,R07,40,Selasa,10:20,12:50,Siang,,620,770,Pagi,150,True,True,True,True,False,,,False,False,True,True
+JDW0157,MK04,Statistika,3,DSN015,KLP039,21,R07,40,Senin,14:40,17:10,Pagi,Siang,880,1030,Siang,150,True,True,True,False,False,True,50.0,True,False,True,True
+JDW0158,MK11,Data Mining,3,DSN041,KLP013,50,R21,60,Rabu,08:40,11:10,Siang,,520,670,Pagi,150,True,True,True,False,False,,,True,True,True,True
+JDW0159,MK02,Basis Data,3,DSN008,KLP018,29,R28,60,Jumat,07:00,09:30,Pagi,Pagi,420,570,Pagi,150,True,True,True,False,True,True,100.0,False,False,False,False
+JDW0160,MK16,Analisis dan Desain Sistem,3,DSN062,KLP003,48,R35,25,Jumat,14:40,17:10,Pagi,Pagi,880,1030,Siang,150,True,True,True,True,False,False,0.0,False,False,True,True
+JDW0161,MK13,Pemrograman Web,3,DSN049,KLP056,24,R22,60,Selasa,07:00,09:30,Pagi,Siang,420,570,Pagi,150,True,True,True,False,True,False,50.0,True,False,True,True
+JDW0162,MK15,Interaksi Manusia Komputer,2,DSN057,KLP050,25,R18,50,Senin,07:00,08:40,Pagi,Sore,420,520,Pagi,100,True,True,True,False,True,False,50.0,False,False,False,False
+JDW0163,MK15,Interaksi Manusia Komputer,2,DSN059,KLP039,21,R27,60,Jumat,16:20,18:00,Pagi,Siang,980,1080,Sore,100,True,True,True,False,False,False,0.0,False,False,True,True
+JDW0164,MK09,Sistem Operasi,3,DSN033,KLP015,48,R32,40,Rabu,08:40,11:10,Pagi,Pagi,520,670,Pagi,150,True,True,True,True,True,True,100.0,False,True,True,True
+JDW0165,MK08,Jaringan Komputer,3,DSN029,KLP031,20,R05,60,Jumat,10:20,12:50,Siang,Sore,620,770,Pagi,150,True,True,True,False,False,False,0.0,True,False,True,True
+JDW0166,MK17,Komputer Vision,3,DSN067,KLP039,21,R09,25,Kamis,07:00,09:30,Pagi,Siang,420,570,Pagi,150,True,True,True,False,True,False,50.0,False,True,True,True
+JDW0167,MK13,Pemrograman Web,3,DSN052,KLP051,42,R03,40,Selasa,07:00,09:30,Siang,Pagi,420,570,Pagi,150,True,True,True,True,False,True,50.0,False,False,True,True
+JDW0168,MK18,Sains Data,3,DSN069,KLP047,47,R21,60,Rabu,08:40,11:10,Pagi,Pagi,520,670,Pagi,150,True,True,True,False,True,True,100.0,False,True,True,True
+JDW0169,MK06,Aljabar Linear,3,DSN021,KLP022,37,R30,50,Rabu,16:20,18:50,Pagi,Pagi,980,1130,Sore,150,True,True,True,False,False,False,0.0,True,False,False,True
+JDW0170,MK18,Sains Data,3,DSN069,KLP042,35,R01,60,Jumat,13:00,15:30,Pagi,Sore,780,930,Siang,150,True,True,True,False,False,False,0.0,False,False,False,False
+JDW0171,MK01,Algoritma dan Pemrograman,3,DSN001,KLP032,29,R17,25,Senin,08:40,11:10,Siang,,520,670,Pagi,150,True,True,True,True,False,,,False,True,False,True
+JDW0172,MK15,Interaksi Manusia Komputer,2,DSN058,KLP003,48,R21,60,Selasa,08:40,10:20,Siang,Pagi,520,620,Pagi,100,True,True,True,False,False,True,50.0,False,False,False,False
+JDW0173,MK17,Komputer Vision,3,DSN065,KLP044,37,R07,40,Senin,14:40,17:10,Pagi,Sore,880,1030,Siang,150,True,True,True,False,False,False,0.0,True,False,True,True
+JDW0174,MK08,Jaringan Komputer,3,DSN032,KLP005,24,R08,40,Selasa,07:00,09:30,Siang,Siang,420,570,Pagi,150,True,True,True,False,False,False,0.0,False,True,False,True
+JDW0175,MK13,Pemrograman Web,3,DSN051,KLP055,49,R32,40,Kamis,07:00,09:30,Siang,Siang,420,570,Pagi,150,True,True,True,True,False,False,0.0,True,True,False,True
+JDW0176,MK04,Statistika,3,DSN013,KLP024,20,R23,60,Rabu,07:00,09:30,Pagi,Sore,420,570,Pagi,150,True,True,True,False,True,False,50.0,True,False,False,True
+JDW0177,MK10,Kecerdasan Buatan,3,DSN040,KLP049,36,R16,25,Selasa,07:00,09:30,Siang,Sore,420,570,Pagi,150,True,True,True,True,False,False,0.0,False,False,True,True
+JDW0178,MK14,Keamanan Informasi,3,DSN054,KLP053,36,R08,40,Selasa,16:20,18:50,Sore,Siang,980,1130,Sore,150,True,True,True,False,True,False,50.0,True,False,False,True
+JDW0179,MK08,Jaringan Komputer,3,DSN031,KLP049,36,R11,60,Rabu,13:00,15:30,,Sore,780,930,Siang,150,True,True,True,False,,False,,True,False,False,True
+JDW0180,MK06,Aljabar Linear,3,DSN022,KLP008,28,R22,60,Senin,07:00,09:30,,Siang,420,570,Pagi,150,True,True,True,False,,False,,False,False,True,True
+JDW0181,MK03,Struktur Data,3,DSN009,KLP058,20,R23,60,Senin,16:20,18:50,,Siang,980,1130,Sore,150,True,True,True,False,,False,,True,True,True,True
+JDW0182,MK04,Statistika,3,DSN014,KLP032,29,R19,35,Senin,07:00,09:30,Siang,,420,570,Pagi,150,True,True,True,False,False,,,False,True,True,True
+JDW0183,MK13,Pemrograman Web,3,DSN050,KLP041,26,R33,45,Selasa,07:00,09:30,Siang,Sore,420,570,Pagi,150,True,True,True,False,False,False,0.0,True,True,True,True
+JDW0184,MK11,Data Mining,3,DSN042,KLP029,22,R09,25,Jumat,08:40,11:10,Siang,Sore,520,670,Pagi,150,True,True,True,False,False,False,0.0,True,False,True,True
+JDW0185,MK05,Kalkulus,3,DSN019,KLP041,26,R33,45,Kamis,08:40,11:10,Pagi,Sore,520,670,Pagi,150,True,True,True,False,True,False,50.0,False,False,True,True
+JDW0186,MK17,Komputer Vision,3,DSN068,KLP002,21,R09,25,Jumat,08:40,11:10,Siang,Pagi,520,670,Pagi,150,True,True,True,False,False,True,50.0,False,False,True,True
+JDW0187,MK01,Algoritma dan Pemrograman,3,DSN002,KLP022,37,R12,40,Senin,16:20,18:50,Pagi,Pagi,980,1130,Sore,150,True,True,True,False,False,False,0.0,True,True,True,True
+JDW0188,MK15,Interaksi Manusia Komputer,2,DSN058,KLP037,45,R32,40,Selasa,14:40,16:20,Siang,Pagi,880,980,Siang,100,True,True,True,True,True,False,50.0,False,False,False,False
+JDW0189,MK02,Basis Data,3,DSN005,KLP053,36,R28,60,Jumat,14:40,17:10,Pagi,Siang,880,1030,Siang,150,True,True,True,False,False,True,50.0,True,True,True,True
+JDW0190,MK07,Rekayasa Perangkat Lunak,3,DSN025,KLP045,50,R14,40,Rabu,13:00,15:30,Sore,Siang,780,930,Siang,150,True,True,True,True,False,True,50.0,False,True,True,True
+JDW0191,MK11,Data Mining,3,DSN044,KLP052,27,R18,50,Kamis,07:00,09:30,Siang,Pagi,420,570,Pagi,150,True,True,True,False,False,True,50.0,False,False,False,False
+JDW0192,MK18,Sains Data,3,DSN070,KLP035,43,R15,25,Selasa,07:00,09:30,Pagi,Siang,420,570,Pagi,150,True,True,True,True,True,False,50.0,True,True,True,True
+JDW0193,MK12,Pembelajaran Mesin,3,DSN046,KLP023,28,R27,60,Senin,16:20,18:50,Siang,Pagi,980,1130,Sore,150,True,True,True,False,False,False,0.0,False,True,True,True
+JDW0194,MK05,Kalkulus,3,DSN018,KLP018,29,R15,25,Senin,08:40,11:10,Siang,Pagi,520,670,Pagi,150,True,True,True,True,False,True,50.0,False,True,False,True
+JDW0195,MK05,Kalkulus,3,DSN017,KLP003,48,R04,30,Kamis,13:00,15:30,Siang,Pagi,780,930,Siang,150,True,True,True,True,True,False,50.0,False,True,False,True
+JDW0196,MK09,Sistem Operasi,3,DSN036,KLP042,35,R29,30,Jumat,10:20,12:50,Siang,Sore,620,770,Pagi,150,True,True,True,True,False,False,0.0,False,True,True,True
+JDW0197,MK03,Struktur Data,3,DSN012,KLP049,36,R34,60,Selasa,16:20,18:50,Pagi,Sore,980,1130,Sore,150,True,True,True,False,False,True,50.0,False,False,True,True
+JDW0198,MK11,Data Mining,3,DSN041,KLP018,29,R17,25,Kamis,14:40,17:10,Siang,Pagi,880,1030,Siang,150,True,True,True,True,True,False,50.0,True,False,False,True
+JDW0199,MK02,Basis Data,3,DSN005,KLP039,21,R35,25,Senin,10:20,12:50,Pagi,Siang,620,770,Pagi,150,True,True,True,False,True,False,50.0,False,True,True,True
+JDW0200,MK17,Komputer Vision,3,DSN065,KLP059,32,R15,25,Selasa,08:40,11:10,Pagi,Siang,520,670,Pagi,150,True,True,True,True,True,False,50.0,True,True,True,True
+JDW0201,MK07,Rekayasa Perangkat Lunak,3,DSN025,KLP058,20,R35,25,Rabu,16:20,18:50,Sore,Siang,980,1130,Sore,150,True,True,True,False,True,False,50.0,False,True,True,True
+JDW0202,MK03,Struktur Data,3,DSN009,KLP021,32,R05,60,Kamis,07:00,09:30,,Siang,420,570,Pagi,150,True,True,True,False,,False,,True,False,False,True
+JDW0203,MK18,Sains Data,3,DSN069,KLP031,20,R13,45,Selasa,16:20,18:50,Pagi,Sore,980,1130,Sore,150,True,True,True,False,False,True,50.0,False,True,True,True
+JDW0204,MK11,Data Mining,3,DSN043,KLP017,23,R28,60,Selasa,10:20,12:50,Siang,Siang,620,770,Pagi,150,True,True,True,False,False,False,0.0,False,False,True,True
+JDW0205,MK09,Sistem Operasi,3,DSN035,KLP006,35,R18,50,Kamis,10:20,12:50,Sore,,620,770,Pagi,150,True,True,True,False,False,,,True,True,True,True
+JDW0206,MK17,Komputer Vision,3,DSN065,KLP060,41,R29,30,Senin,14:40,17:10,Pagi,Siang,880,1030,Siang,150,True,True,True,True,False,True,50.0,True,True,True,True
+JDW0207,MK12,Pembelajaran Mesin,3,DSN045,KLP009,32,R26,45,Rabu,07:00,09:30,Pagi,Siang,420,570,Pagi,150,True,True,True,False,True,False,50.0,False,False,True,True
+JDW0208,MK13,Pemrograman Web,3,DSN049,KLP025,26,R10,50,Jumat,14:40,17:10,Pagi,Siang,880,1030,Siang,150,True,True,True,False,False,True,50.0,True,False,True,True
+JDW0209,MK04,Statistika,3,DSN014,KLP027,36,R29,30,Rabu,07:00,09:30,Siang,Siang,420,570,Pagi,150,True,True,True,True,False,False,0.0,True,False,False,True
+JDW0210,MK10,Kecerdasan Buatan,3,DSN038,KLP036,44,R13,45,Senin,16:20,18:50,Siang,Sore,980,1130,Sore,150,True,True,True,False,False,True,50.0,False,True,True,True
+JDW0211,MK18,Sains Data,3,DSN072,KLP044,37,R16,25,Kamis,10:20,12:50,Sore,Sore,620,770,Pagi,150,True,True,True,True,False,False,0.0,True,True,True,True
+JDW0212,MK01,Algoritma dan Pemrograman,3,DSN002,KLP016,27,R23,60,Senin,16:20,18:50,Pagi,Pagi,980,1130,Sore,150,True,True,True,False,False,False,0.0,True,True,True,True
+JDW0213,MK14,Keamanan Informasi,3,DSN056,KLP023,28,R02,25,Senin,07:00,09:30,Siang,Pagi,420,570,Pagi,150,True,True,True,True,False,True,50.0,False,True,False,True
+JDW0214,MK02,Basis Data,3,DSN007,KLP013,50,R10,50,Jumat,10:20,12:50,Pagi,,620,770,Pagi,150,True,True,True,False,True,,,True,True,True,True
+JDW0215,MK18,Sains Data,3,DSN071,KLP029,22,R25,50,Senin,08:40,11:10,Siang,Sore,520,670,Pagi,150,True,True,True,False,False,False,0.0,False,True,True,True
+JDW0216,MK09,Sistem Operasi,3,DSN034,KLP029,22,R13,45,Rabu,16:20,18:50,Pagi,Sore,980,1130,Sore,150,True,True,True,False,False,True,50.0,True,False,True,True
+JDW0217,MK13,Pemrograman Web,3,DSN049,KLP040,37,R20,25,Jumat,13:00,15:30,Pagi,Siang,780,930,Siang,150,True,True,True,True,False,True,50.0,True,True,False,True
+JDW0218,MK03,Struktur Data,3,DSN012,KLP010,48,R34,60,Rabu,08:40,11:10,Pagi,Siang,520,670,Pagi,150,True,True,True,False,True,False,50.0,False,False,False,False
+JDW0219,MK18,Sains Data,3,DSN072,KLP027,36,R25,50,Rabu,14:40,17:10,Sore,Siang,880,1030,Siang,150,True,True,True,False,False,True,50.0,True,False,False,True
+JDW0220,MK01,Algoritma dan Pemrograman,3,DSN003,KLP035,43,R08,40,Rabu,10:20,12:50,Pagi,Siang,620,770,Pagi,150,True,True,True,True,True,False,50.0,True,True,True,True
+JDW0221,MK15,Interaksi Manusia Komputer,2,DSN057,KLP001,22,R11,60,Senin,08:40,10:20,Pagi,Pagi,520,620,Pagi,100,True,True,True,False,True,True,100.0,False,True,True,True
+JDW0222,MK05,Kalkulus,3,DSN020,KLP060,41,R31,60,Senin,16:20,18:50,Siang,Siang,980,1130,Sore,150,True,True,True,False,False,False,0.0,False,True,True,True
+JDW0223,MK10,Kecerdasan Buatan,3,DSN037,KLP032,29,R07,40,Rabu,16:20,18:50,Pagi,,980,1130,Sore,150,True,True,True,False,False,,,False,True,False,True
+JDW0224,MK11,Data Mining,3,DSN042,KLP041,26,R19,35,Rabu,08:40,11:10,Siang,Sore,520,670,Pagi,150,True,True,True,False,False,False,0.0,True,True,True,True
+JDW0225,MK16,Analisis dan Desain Sistem,3,DSN063,KLP047,47,R24,40,Kamis,10:20,12:50,Sore,Pagi,620,770,Pagi,150,True,True,True,True,False,True,50.0,False,False,False,False
+JDW0226,MK13,Pemrograman Web,3,DSN049,KLP035,43,R01,60,Selasa,07:00,09:30,Pagi,Siang,420,570,Pagi,150,True,True,True,False,True,False,50.0,True,True,True,True
+JDW0227,MK11,Data Mining,3,DSN041,KLP004,22,R30,50,Jumat,16:20,18:50,Siang,Siang,980,1130,Sore,150,True,True,True,False,False,False,0.0,True,True,True,True
+JDW0228,MK06,Aljabar Linear,3,DSN023,KLP019,50,R04,30,Selasa,07:00,09:30,Pagi,Siang,420,570,Pagi,150,True,True,True,True,True,False,50.0,True,False,True,True
+JDW0229,MK13,Pemrograman Web,3,DSN050,KLP010,48,R16,25,Kamis,08:40,11:10,Siang,Siang,520,670,Pagi,150,True,True,True,True,False,False,0.0,False,True,True,True
+JDW0230,MK08,Jaringan Komputer,3,DSN031,KLP019,50,R17,25,Rabu,14:40,17:10,,Siang,880,1030,Siang,150,True,True,True,True,,True,,True,True,True,True
+JDW0231,MK12,Pembelajaran Mesin,3,DSN045,KLP040,37,R26,45,Selasa,13:00,15:30,Pagi,Siang,780,930,Siang,150,True,True,True,False,False,True,50.0,False,True,True,True
+JDW0232,MK10,Kecerdasan Buatan,3,DSN039,KLP022,37,R21,60,Senin,14:40,17:10,Pagi,Pagi,880,1030,Siang,150,True,True,True,False,False,False,0.0,True,True,True,True
+JDW0233,MK09,Sistem Operasi,3,DSN034,KLP046,24,R16,25,Rabu,14:40,17:10,Pagi,Sore,880,1030,Siang,150,True,True,True,False,False,False,0.0,True,False,True,True
+JDW0234,MK16,Analisis dan Desain Sistem,3,DSN062,KLP018,29,R21,60,Senin,08:40,11:10,Pagi,Pagi,520,670,Pagi,150,True,True,True,False,True,True,100.0,True,True,True,True
+JDW0235,MK17,Komputer Vision,3,DSN065,KLP003,48,R29,30,Senin,08:40,11:10,Pagi,Pagi,520,670,Pagi,150,True,True,True,True,True,True,100.0,False,False,False,False
+JDW0236,MK16,Analisis dan Desain Sistem,3,DSN063,KLP023,28,R03,40,Selasa,14:40,17:10,Sore,Pagi,880,1030,Siang,150,True,True,True,False,False,False,0.0,True,False,False,True
+JDW0237,MK07,Rekayasa Perangkat Lunak,3,DSN028,KLP054,33,R30,50,Kamis,07:00,09:30,Pagi,,420,570,Pagi,150,True,True,True,False,True,,,True,True,True,True
+JDW0238,MK06,Aljabar Linear,3,DSN023,KLP017,23,R31,60,Jumat,14:40,17:10,Pagi,Siang,880,1030,Siang,150,True,True,True,False,False,True,50.0,False,False,True,True
+JDW0239,MK01,Algoritma dan Pemrograman,3,DSN003,KLP058,20,R10,50,Rabu,14:40,17:10,Pagi,Siang,880,1030,Siang,150,True,True,True,False,False,True,50.0,False,True,False,True
+JDW0240,MK09,Sistem Operasi,3,DSN035,KLP033,49,R22,60,Selasa,14:40,17:10,Sore,Sore,880,1030,Siang,150,True,True,True,False,False,False,0.0,False,True,True,True
+JDW0241,MK03,Struktur Data,3,DSN010,KLP018,29,R26,45,Kamis,08:40,11:10,Siang,Pagi,520,670,Pagi,150,True,True,True,False,False,True,50.0,True,True,True,True
+JDW0242,MK08,Jaringan Komputer,3,DSN029,KLP006,35,R18,50,Selasa,10:20,12:50,Siang,,620,770,Pagi,150,True,True,True,False,False,,,True,False,False,True
+JDW0243,MK18,Sains Data,3,DSN069,KLP060,41,R26,45,Kamis,13:00,15:30,Pagi,Siang,780,930,Siang,150,True,True,True,False,False,True,50.0,True,False,False,True
+JDW0244,MK16,Analisis dan Desain Sistem,3,DSN062,KLP013,50,R20,25,Selasa,13:00,15:30,Pagi,,780,930,Siang,150,True,True,True,True,False,,,False,False,True,True
+JDW0245,MK15,Interaksi Manusia Komputer,2,DSN060,KLP032,29,R02,25,Kamis,14:40,16:20,Siang,,880,980,Siang,100,True,True,True,True,True,,,False,False,False,False
+JDW0246,MK06,Aljabar Linear,3,DSN024,KLP001,22,R25,50,Kamis,10:20,12:50,Pagi,Pagi,620,770,Pagi,150,True,True,True,False,True,True,100.0,True,False,False,True
+JDW0247,MK13,Pemrograman Web,3,DSN050,KLP024,20,R06,25,Rabu,13:00,15:30,Siang,Sore,780,930,Siang,150,True,True,True,False,True,False,50.0,False,False,True,True
+JDW0248,MK12,Pembelajaran Mesin,3,DSN046,KLP016,27,R32,40,Senin,10:20,12:50,Siang,Pagi,620,770,Pagi,150,True,True,True,False,False,True,50.0,False,True,True,True
+JDW0249,MK01,Algoritma dan Pemrograman,3,DSN003,KLP010,48,R24,40,Jumat,14:40,17:10,Pagi,Siang,880,1030,Siang,150,True,True,True,True,False,True,50.0,True,False,True,True
+JDW0250,MK09,Sistem Operasi,3,DSN036,KLP047,47,R07,40,Rabu,07:00,09:30,Siang,Pagi,420,570,Pagi,150,True,True,True,True,False,True,50.0,True,True,True,True
+JDW0251,MK08,Jaringan Komputer,3,DSN030,KLP046,24,R17,25,Senin,16:20,18:50,Siang,Sore,980,1130,Sore,150,True,True,True,False,False,True,50.0,True,True,True,True
+JDW0252,MK06,Aljabar Linear,3,DSN021,KLP013,50,R19,35,Senin,07:00,09:30,Pagi,,420,570,Pagi,150,True,True,True,True,True,,,False,False,True,True
+JDW0253,MK16,Analisis dan Desain Sistem,3,DSN064,KLP051,42,R18,50,Jumat,07:00,09:30,Siang,Pagi,420,570,Pagi,150,True,True,True,False,False,True,50.0,False,False,False,False
+JDW0254,MK03,Struktur Data,3,DSN009,KLP048,32,R04,30,Senin,16:20,18:50,,Siang,980,1130,Sore,150,True,True,True,True,,False,,True,True,False,True
+JDW0255,MK11,Data Mining,3,DSN042,KLP003,48,R22,60,Kamis,13:00,15:30,Siang,Pagi,780,930,Siang,150,True,True,True,False,True,False,50.0,False,True,False,True
+JDW0256,MK10,Kecerdasan Buatan,3,DSN039,KLP008,28,R20,25,Senin,13:00,15:30,Pagi,Siang,780,930,Siang,150,True,True,True,True,False,True,50.0,True,False,True,True
+JDW0257,MK01,Algoritma dan Pemrograman,3,DSN003,KLP053,36,R04,30,Rabu,07:00,09:30,Pagi,Siang,420,570,Pagi,150,True,True,True,True,True,False,50.0,True,True,True,True
+JDW0258,MK08,Jaringan Komputer,3,DSN029,KLP034,21,R03,40,Rabu,07:00,09:30,Siang,Pagi,420,570,Pagi,150,True,True,True,False,False,True,50.0,False,False,False,False
+JDW0259,MK12,Pembelajaran Mesin,3,DSN046,KLP004,22,R16,25,Jumat,16:20,18:50,Siang,Siang,980,1130,Sore,150,True,True,True,False,False,False,0.0,False,True,True,True
+JDW0260,MK11,Data Mining,3,DSN041,KLP002,21,R27,60,Jumat,14:40,17:10,Siang,Pagi,880,1030,Siang,150,True,True,True,False,True,False,50.0,True,True,True,True
+JDW0261,MK09,Sistem Operasi,3,DSN034,KLP055,49,R10,50,Kamis,10:20,12:50,Pagi,Siang,620,770,Pagi,150,True,True,True,False,True,False,50.0,False,False,False,False
+JDW0262,MK02,Basis Data,3,DSN008,KLP038,43,R27,60,Rabu,08:40,11:10,Pagi,Pagi,520,670,Pagi,150,True,True,True,False,True,True,100.0,True,True,False,True
+JDW0263,MK16,Analisis dan Desain Sistem,3,DSN064,KLP032,29,R17,25,Jumat,10:20,12:50,Siang,,620,770,Pagi,150,True,True,True,True,False,,,False,False,False,False
+JDW0264,MK14,Keamanan Informasi,3,DSN053,KLP049,36,R08,40,Rabu,16:20,18:50,Pagi,Sore,980,1130,Sore,150,True,True,True,False,False,True,50.0,False,False,True,True
+JDW0265,MK16,Analisis dan Desain Sistem,3,DSN062,KLP037,45,R29,30,Kamis,10:20,12:50,Pagi,Pagi,620,770,Pagi,150,True,True,True,True,True,True,100.0,True,False,False,True
+JDW0266,MK01,Algoritma dan Pemrograman,3,DSN002,KLP003,48,R15,25,Rabu,14:40,17:10,Pagi,Pagi,880,1030,Siang,150,True,True,True,True,False,False,0.0,False,False,True,True
+JDW0267,MK02,Basis Data,3,DSN005,KLP054,33,R02,25,Rabu,07:00,09:30,Pagi,,420,570,Pagi,150,True,True,True,True,True,,,False,False,True,True
+JDW0268,MK18,Sains Data,3,DSN072,KLP010,48,R23,60,Jumat,07:00,09:30,Sore,Siang,420,570,Pagi,150,True,True,True,False,False,False,0.0,False,True,False,True
+JDW0269,MK13,Pemrograman Web,3,DSN049,KLP034,21,R29,30,Jumat,07:00,09:30,Pagi,Pagi,420,570,Pagi,150,True,True,True,False,True,True,100.0,False,True,True,True
+JDW0270,MK11,Data Mining,3,DSN044,KLP028,41,R26,45,Senin,07:00,09:30,Siang,Pagi,420,570,Pagi,150,True,True,True,False,False,True,50.0,True,True,True,True
+JDW0271,MK17,Komputer Vision,3,DSN068,KLP037,45,R12,40,Selasa,07:00,09:30,Siang,Pagi,420,570,Pagi,150,True,True,True,True,False,True,50.0,False,False,True,True
+JDW0272,MK11,Data Mining,3,DSN041,KLP049,36,R17,25,Kamis,10:20,12:50,Siang,Sore,620,770,Pagi,150,True,True,True,True,False,False,0.0,False,False,False,False
+JDW0273,MK06,Aljabar Linear,3,DSN021,KLP006,35,R15,25,Rabu,14:40,17:10,Pagi,,880,1030,Siang,150,True,True,True,True,False,,,True,True,True,True
+JDW0274,MK08,Jaringan Komputer,3,DSN031,KLP022,37,R25,50,Jumat,08:40,11:10,,Pagi,520,670,Pagi,150,True,True,True,False,,True,,False,False,True,True
+JDW0275,MK14,Keamanan Informasi,3,DSN054,KLP039,21,R26,45,Kamis,07:00,09:30,Sore,Siang,420,570,Pagi,150,True,True,True,False,False,False,0.0,True,True,True,True
+JDW0276,MK05,Kalkulus,3,DSN017,KLP009,32,R31,60,Selasa,13:00,15:30,Siang,Siang,780,930,Siang,150,True,True,True,False,True,True,100.0,False,False,True,True
+JDW0277,MK12,Pembelajaran Mesin,3,DSN045,KLP047,47,R13,45,Kamis,07:00,09:30,Pagi,Pagi,420,570,Pagi,150,True,True,True,True,True,True,100.0,False,False,True,True
+JDW0278,MK13,Pemrograman Web,3,DSN052,KLP016,27,R30,50,Kamis,07:00,09:30,Siang,Pagi,420,570,Pagi,150,True,True,True,False,False,True,50.0,True,False,True,True
+JDW0279,MK17,Komputer Vision,3,DSN065,KLP025,26,R12,40,Jumat,10:20,12:50,Pagi,Siang,620,770,Pagi,150,True,True,True,False,True,False,50.0,False,False,False,False
+JDW0280,MK12,Pembelajaran Mesin,3,DSN048,KLP049,36,R04,30,Jumat,13:00,15:30,,Sore,780,930,Siang,150,True,True,True,True,,False,,True,False,True,True
+JDW0281,MK05,Kalkulus,3,DSN017,KLP044,37,R18,50,Rabu,10:20,12:50,Siang,Sore,620,770,Pagi,150,True,True,True,False,False,False,0.0,False,True,True,True
+JDW0282,MK03,Struktur Data,3,DSN012,KLP029,22,R25,50,Senin,08:40,11:10,Pagi,Sore,520,670,Pagi,150,True,True,True,False,True,False,50.0,True,True,True,True
+JDW0283,MK14,Keamanan Informasi,3,DSN056,KLP052,27,R13,45,Selasa,13:00,15:30,Siang,Pagi,780,930,Siang,150,True,True,True,False,True,False,50.0,False,True,True,True
+JDW0284,MK08,Jaringan Komputer,3,DSN029,KLP033,49,R34,60,Selasa,08:40,11:10,Siang,Sore,520,670,Pagi,150,True,True,True,False,False,False,0.0,True,True,True,True
+JDW0285,MK12,Pembelajaran Mesin,3,DSN048,KLP012,28,R06,25,Jumat,07:00,09:30,,Pagi,420,570,Pagi,150,True,True,True,True,,True,,False,True,True,True
+JDW0286,MK09,Sistem Operasi,3,DSN035,KLP060,41,R10,50,Jumat,14:40,17:10,Sore,Siang,880,1030,Siang,150,True,True,True,False,False,True,50.0,False,True,True,True
+JDW0287,MK01,Algoritma dan Pemrograman,3,DSN001,KLP039,21,R10,50,Jumat,13:00,15:30,Siang,Siang,780,930,Siang,150,True,True,True,False,True,True,100.0,False,False,True,True
+JDW0288,MK06,Aljabar Linear,3,DSN021,KLP028,41,R21,60,Rabu,13:00,15:30,Pagi,Pagi,780,930,Siang,150,True,True,True,False,False,False,0.0,True,False,True,True
+JDW0289,MK08,Jaringan Komputer,3,DSN031,KLP056,24,R24,40,Rabu,10:20,12:50,,Siang,620,770,Pagi,150,True,True,True,False,,False,,True,False,False,True
+JDW0290,MK10,Kecerdasan Buatan,3,DSN040,KLP056,24,R13,45,Senin,16:20,18:50,Siang,Siang,980,1130,Sore,150,True,True,True,False,False,False,0.0,True,True,True,True
+JDW0291,MK17,Komputer Vision,3,DSN065,KLP040,37,R05,60,Selasa,16:20,18:50,Pagi,Siang,980,1130,Sore,150,True,True,True,False,False,False,0.0,False,False,True,True
+JDW0292,MK04,Statistika,3,DSN014,KLP013,50,R20,25,Jumat,07:00,09:30,Siang,,420,570,Pagi,150,True,True,True,True,False,,,False,True,False,True
+JDW0293,MK08,Jaringan Komputer,3,DSN030,KLP050,25,R33,45,Senin,13:00,15:30,Siang,Sore,780,930,Siang,150,True,True,True,False,True,False,50.0,True,True,False,True
+JDW0294,MK17,Komputer Vision,3,DSN065,KLP018,29,R14,40,Selasa,10:20,12:50,Pagi,Pagi,620,770,Pagi,150,True,True,True,False,True,True,100.0,True,False,True,True
+JDW0295,MK09,Sistem Operasi,3,DSN035,KLP053,36,R08,40,Kamis,13:00,15:30,Sore,Siang,780,930,Siang,150,True,True,True,False,False,True,50.0,True,False,False,True
+JDW0296,MK10,Kecerdasan Buatan,3,DSN040,KLP004,22,R26,45,Rabu,07:00,09:30,Siang,Siang,420,570,Pagi,150,True,True,True,False,False,False,0.0,False,False,True,True
+JDW0297,MK13,Pemrograman Web,3,DSN049,KLP002,21,R25,50,Senin,14:40,17:10,Pagi,Pagi,880,1030,Siang,150,True,True,True,False,False,False,0.0,False,True,True,True
+JDW0298,MK11,Data Mining,3,DSN044,KLP020,32,R16,25,Senin,08:40,11:10,Siang,Siang,520,670,Pagi,150,True,True,True,True,False,False,0.0,True,True,True,True
+JDW0299,MK08,Jaringan Komputer,3,DSN031,KLP008,28,R22,60,Rabu,10:20,12:50,,Siang,620,770,Pagi,150,True,True,True,False,,False,,True,True,True,True
+JDW0300,MK17,Komputer Vision,3,DSN066,KLP029,22,R16,25,Rabu,13:00,15:30,Siang,Sore,780,930,Siang,150,True,True,True,False,True,False,50.0,True,False,True,True
+JDW0301,MK16,Analisis dan Desain Sistem,3,DSN064,KLP060,41,R11,60,Rabu,08:40,11:10,Siang,Siang,520,670,Pagi,150,True,True,True,False,False,False,0.0,False,True,True,True
+JDW0302,MK18,Sains Data,3,DSN072,KLP019,50,R15,25,Selasa,14:40,17:10,Sore,Siang,880,1030,Siang,150,True,True,True,True,False,True,50.0,True,False,True,True
+JDW0303,MK02,Basis Data,3,DSN008,KLP019,50,R32,40,Senin,14:40,17:10,Pagi,Siang,880,1030,Siang,150,True,True,True,True,False,True,50.0,True,True,True,True
+JDW0304,MK12,Pembelajaran Mesin,3,DSN048,KLP032,29,R15,25,Kamis,10:20,12:50,,,620,770,Pagi,150,True,True,True,True,,,,False,False,True,True
+JDW0305,MK05,Kalkulus,3,DSN020,KLP010,48,R10,50,Senin,07:00,09:30,Siang,Siang,420,570,Pagi,150,True,True,True,False,False,False,0.0,False,False,True,True
+JDW0306,MK16,Analisis dan Desain Sistem,3,DSN063,KLP014,41,R10,50,Rabu,10:20,12:50,Sore,Pagi,620,770,Pagi,150,True,True,True,False,False,True,50.0,True,False,False,True
+JDW0307,MK06,Aljabar Linear,3,DSN022,KLP002,21,R28,60,Senin,16:20,18:50,,Pagi,980,1130,Sore,150,True,True,True,False,,False,,False,True,False,True
+JDW0308,MK14,Keamanan Informasi,3,DSN056,KLP007,22,R21,60,Jumat,14:40,17:10,Siang,Pagi,880,1030,Siang,150,True,True,True,False,True,False,50.0,True,True,True,True
+JDW0309,MK14,Keamanan Informasi,3,DSN056,KLP057,25,R06,25,Rabu,08:40,11:10,Siang,Siang,520,670,Pagi,150,True,True,True,False,False,False,0.0,True,False,True,True
+JDW0310,MK02,Basis Data,3,DSN006,KLP046,24,R26,45,Selasa,13:00,15:30,Pagi,Sore,780,930,Siang,150,True,True,True,False,False,False,0.0,False,False,True,True
+JDW0311,MK13,Pemrograman Web,3,DSN052,KLP008,28,R10,50,Jumat,13:00,15:30,Siang,Siang,780,930,Siang,150,True,True,True,False,True,True,100.0,False,True,True,True
+JDW0312,MK10,Kecerdasan Buatan,3,DSN039,KLP030,42,R25,50,Senin,08:40,11:10,Pagi,Siang,520,670,Pagi,150,True,True,True,False,True,False,50.0,True,False,True,True
+JDW0313,MK02,Basis Data,3,DSN008,KLP025,26,R19,35,Selasa,10:20,12:50,Pagi,Siang,620,770,Pagi,150,True,True,True,False,True,False,50.0,False,False,False,False
+JDW0314,MK06,Aljabar Linear,3,DSN023,KLP056,24,R22,60,Kamis,08:40,11:10,Pagi,Siang,520,670,Pagi,150,True,True,True,False,True,False,50.0,False,True,True,True
+JDW0315,MK14,Keamanan Informasi,3,DSN054,KLP041,26,R10,50,Jumat,07:00,09:30,Sore,Sore,420,570,Pagi,150,True,True,True,False,False,False,0.0,False,False,True,True
+JDW0316,MK15,Interaksi Manusia Komputer,2,DSN057,KLP002,21,R13,45,Kamis,08:40,10:20,Pagi,Pagi,520,620,Pagi,100,True,True,True,False,True,True,100.0,False,False,True,True
+JDW0317,MK07,Rekayasa Perangkat Lunak,3,DSN028,KLP011,40,R30,50,Senin,08:40,11:10,Pagi,Pagi,520,670,Pagi,150,True,True,True,False,True,True,100.0,False,False,False,False
+JDW0318,MK13,Pemrograman Web,3,DSN051,KLP027,36,R10,50,Kamis,07:00,09:30,Siang,Siang,420,570,Pagi,150,True,True,True,False,False,False,0.0,True,True,True,True
+JDW0319,MK03,Struktur Data,3,DSN009,KLP004,22,R05,60,Rabu,13:00,15:30,,Siang,780,930,Siang,150,True,True,True,False,,True,,False,False,True,True
+JDW0320,MK16,Analisis dan Desain Sistem,3,DSN063,KLP053,36,R07,40,Rabu,08:40,11:10,Sore,Siang,520,670,Pagi,150,True,True,True,False,False,False,0.0,True,True,True,True
+JDW0321,MK09,Sistem Operasi,3,DSN034,KLP059,32,R20,25,Senin,14:40,17:10,Pagi,Siang,880,1030,Siang,150,True,True,True,True,False,True,50.0,False,True,True,True
+JDW0322,MK16,Analisis dan Desain Sistem,3,DSN064,KLP025,26,R25,50,Kamis,07:00,09:30,Siang,Siang,420,570,Pagi,150,True,True,True,False,False,False,0.0,False,True,False,True
+JDW0323,MK07,Rekayasa Perangkat Lunak,3,DSN027,KLP010,48,R25,50,Jumat,08:40,11:10,Sore,Siang,520,670,Pagi,150,True,True,True,False,False,False,0.0,True,True,True,True
+JDW0324,MK01,Algoritma dan Pemrograman,3,DSN004,KLP025,26,R01,60,Kamis,08:40,11:10,Pagi,Siang,520,670,Pagi,150,True,True,True,False,True,False,50.0,False,True,True,True
+JDW0325,MK14,Keamanan Informasi,3,DSN056,KLP038,43,R29,30,Jumat,08:40,11:10,Siang,Pagi,520,670,Pagi,150,True,True,True,True,False,True,50.0,True,False,True,True
+JDW0326,MK08,Jaringan Komputer,3,DSN029,KLP002,21,R05,60,Rabu,13:00,15:30,Siang,Pagi,780,930,Siang,150,True,True,True,False,True,False,50.0,False,False,True,True
+JDW0327,MK17,Komputer Vision,3,DSN065,KLP034,21,R10,50,Jumat,14:40,17:10,Pagi,Pagi,880,1030,Siang,150,True,True,True,False,False,False,0.0,True,False,True,True
+JDW0328,MK11,Data Mining,3,DSN044,KLP016,27,R35,25,Senin,10:20,12:50,Siang,Pagi,620,770,Pagi,150,True,True,True,True,False,True,50.0,True,True,True,True
+JDW0329,MK08,Jaringan Komputer,3,DSN029,KLP027,36,R16,25,Jumat,14:40,17:10,Siang,Siang,880,1030,Siang,150,True,True,True,True,True,True,100.0,False,False,True,True
+JDW0330,MK16,Analisis dan Desain Sistem,3,DSN062,KLP042,35,R04,30,Senin,08:40,11:10,Pagi,Sore,520,670,Pagi,150,True,True,True,True,True,False,50.0,True,False,True,True
+JDW0331,MK01,Algoritma dan Pemrograman,3,DSN004,KLP011,40,R14,40,Jumat,08:40,11:10,Pagi,Pagi,520,670,Pagi,150,True,True,True,False,True,True,100.0,True,True,True,True
+JDW0332,MK03,Struktur Data,3,DSN009,KLP054,33,R09,25,Senin,14:40,17:10,,,880,1030,Siang,150,True,True,True,True,,,,True,True,False,True
+JDW0333,MK03,Struktur Data,3,DSN012,KLP007,22,R01,60,Rabu,16:20,18:50,Pagi,Pagi,980,1130,Sore,150,True,True,True,False,False,False,0.0,False,False,True,True
+JDW0334,MK04,Statistika,3,DSN013,KLP046,24,R28,60,Jumat,16:20,18:50,Pagi,Sore,980,1130,Sore,150,True,True,True,False,False,True,50.0,True,False,True,True
+JDW0335,MK09,Sistem Operasi,3,DSN033,KLP027,36,R10,50,Kamis,07:00,09:30,Pagi,Siang,420,570,Pagi,150,True,True,True,False,True,False,50.0,False,True,True,True
+JDW0336,MK18,Sains Data,3,DSN069,KLP001,22,R12,40,Senin,08:40,11:10,Pagi,Pagi,520,670,Pagi,150,True,True,True,False,True,True,100.0,True,True,True,True
+JDW0337,MK15,Interaksi Manusia Komputer,2,DSN060,KLP007,22,R16,25,Rabu,14:40,16:20,Siang,Pagi,880,980,Siang,100,True,True,True,False,True,False,50.0,False,False,True,True
+JDW0338,MK15,Interaksi Manusia Komputer,2,DSN058,KLP047,47,R27,60,Rabu,14:40,16:20,Siang,Pagi,880,980,Siang,100,True,True,True,False,True,False,50.0,False,True,False,True
+JDW0339,MK13,Pemrograman Web,3,DSN052,KLP044,37,R21,60,Jumat,07:00,09:30,Siang,Sore,420,570,Pagi,150,True,True,True,False,False,False,0.0,False,True,True,True
+JDW0340,MK08,Jaringan Komputer,3,DSN030,KLP045,50,R35,25,Rabu,14:40,17:10,Siang,Siang,880,1030,Siang,150,True,True,True,True,True,True,100.0,False,True,True,True
+JDW0341,MK02,Basis Data,3,DSN005,KLP004,22,R21,60,Jumat,16:20,18:50,Pagi,Siang,980,1130,Sore,150,True,True,True,False,False,False,0.0,True,True,True,True
+JDW0342,MK05,Kalkulus,3,DSN017,KLP006,35,R34,60,Senin,14:40,17:10,Siang,,880,1030,Siang,150,True,True,True,False,True,,,True,False,True,True
+JDW0343,MK18,Sains Data,3,DSN069,KLP056,24,R16,25,Senin,16:20,18:50,Pagi,Siang,980,1130,Sore,150,True,True,True,False,False,False,0.0,False,True,True,True
+JDW0344,MK05,Kalkulus,3,DSN020,KLP008,28,R06,25,Jumat,16:20,18:50,Siang,Siang,980,1130,Sore,150,True,True,True,True,False,False,0.0,False,False,False,False
+JDW0345,MK03,Struktur Data,3,DSN012,KLP038,43,R10,50,Selasa,07:00,09:30,Pagi,Pagi,420,570,Pagi,150,True,True,True,False,True,True,100.0,False,True,False,True
+JDW0346,MK08,Jaringan Komputer,3,DSN032,KLP060,41,R02,25,Rabu,08:40,11:10,Siang,Siang,520,670,Pagi,150,True,True,True,True,False,False,0.0,True,True,True,True
+JDW0347,MK05,Kalkulus,3,DSN020,KLP035,43,R02,25,Selasa,07:00,09:30,Siang,Siang,420,570,Pagi,150,True,True,True,True,False,False,0.0,False,True,True,True
+JDW0348,MK16,Analisis dan Desain Sistem,3,DSN061,KLP054,33,R22,60,Kamis,10:20,12:50,Sore,,620,770,Pagi,150,True,True,True,False,False,,,True,True,True,True
+JDW0349,MK06,Aljabar Linear,3,DSN021,KLP046,24,R27,60,Selasa,07:00,09:30,Pagi,Sore,420,570,Pagi,150,True,True,True,False,True,False,50.0,False,True,True,True
+JDW0350,MK07,Rekayasa Perangkat Lunak,3,DSN026,KLP040,37,R27,60,Selasa,13:00,15:30,,Siang,780,930,Siang,150,True,True,True,False,,True,,False,True,True,True
+JDW0351,MK15,Interaksi Manusia Komputer,2,DSN059,KLP030,42,R22,60,Jumat,14:40,16:20,Pagi,Siang,880,980,Siang,100,True,True,True,False,False,True,50.0,False,False,False,False
+JDW0352,MK05,Kalkulus,3,DSN017,KLP024,20,R31,60,Jumat,07:00,09:30,Siang,Sore,420,570,Pagi,150,True,True,True,False,False,False,0.0,False,False,True,True
+JDW0353,MK16,Analisis dan Desain Sistem,3,DSN061,KLP006,35,R06,25,Kamis,08:40,11:10,Sore,,520,670,Pagi,150,True,True,True,True,False,,,True,True,True,True
+JDW0354,MK17,Komputer Vision,3,DSN067,KLP056,24,R10,50,Jumat,10:20,12:50,Pagi,Siang,620,770,Pagi,150,True,True,True,False,True,False,50.0,False,False,True,True
+JDW0355,MK11,Data Mining,3,DSN042,KLP015,48,R26,45,Selasa,13:00,15:30,Siang,Pagi,780,930,Siang,150,True,True,True,True,True,False,50.0,False,False,True,True
+JDW0356,MK16,Analisis dan Desain Sistem,3,DSN061,KLP052,27,R01,60,Selasa,13:00,15:30,Sore,Pagi,780,930,Siang,150,True,True,True,False,False,False,0.0,False,True,True,True
+JDW0357,MK07,Rekayasa Perangkat Lunak,3,DSN025,KLP022,37,R30,50,Selasa,13:00,15:30,Sore,Pagi,780,930,Siang,150,True,True,True,False,False,False,0.0,False,True,False,True
+JDW0358,MK14,Keamanan Informasi,3,DSN053,KLP028,41,R10,50,Senin,08:40,11:10,Pagi,Pagi,520,670,Pagi,150,True,True,True,False,True,True,100.0,False,True,True,True
+JDW0359,MK13,Pemrograman Web,3,DSN051,KLP019,50,R11,60,Senin,07:00,09:30,Siang,Siang,420,570,Pagi,150,True,True,True,False,False,False,0.0,True,True,True,True
+JDW0360,MK16,Analisis dan Desain Sistem,3,DSN063,KLP059,32,R19,35,Senin,08:40,11:10,Sore,Siang,520,670,Pagi,150,True,True,True,False,False,False,0.0,False,False,True,True
+JDW0361,MK10,Kecerdasan Buatan,3,DSN037,KLP010,48,R10,50,Kamis,07:00,09:30,Pagi,Siang,420,570,Pagi,150,True,True,True,False,True,False,50.0,True,True,True,True
+JDW0362,MK09,Sistem Operasi,3,DSN034,KLP020,32,R32,40,Rabu,14:40,17:10,Pagi,Siang,880,1030,Siang,150,True,True,True,False,False,True,50.0,True,True,False,True
+JDW0363,MK02,Basis Data,3,DSN005,KLP044,37,R04,30,Kamis,10:20,12:50,Pagi,Sore,620,770,Pagi,150,True,True,True,True,True,False,50.0,False,True,False,True
+JDW0364,MK18,Sains Data,3,DSN070,KLP046,24,R06,25,Jumat,07:00,09:30,Pagi,Sore,420,570,Pagi,150,True,True,True,False,True,False,50.0,False,False,True,True
+JDW0365,MK08,Jaringan Komputer,3,DSN031,KLP040,37,R13,45,Senin,08:40,11:10,,Siang,520,670,Pagi,150,True,True,True,False,,False,,True,False,True,True
+JDW0366,MK02,Basis Data,3,DSN007,KLP020,32,R05,60,Jumat,13:00,15:30,Pagi,Siang,780,930,Siang,150,True,True,True,False,False,True,50.0,False,True,False,True
+JDW0367,MK16,Analisis dan Desain Sistem,3,DSN062,KLP055,49,R16,25,Jumat,07:00,09:30,Pagi,Siang,420,570,Pagi,150,True,True,True,True,True,False,50.0,False,False,False,False
+JDW0368,MK02,Basis Data,3,DSN006,KLP043,46,R09,25,Senin,07:00,09:30,Pagi,Siang,420,570,Pagi,150,True,True,True,True,True,False,50.0,True,False,False,True
+JDW0369,MK09,Sistem Operasi,3,DSN033,KLP054,33,R02,25,Senin,16:20,18:50,Pagi,,980,1130,Sore,150,True,True,True,True,False,,,False,True,False,True
+JDW0370,MK01,Algoritma dan Pemrograman,3,DSN001,KLP042,35,R16,25,Selasa,16:20,18:50,Siang,Sore,980,1130,Sore,150,True,True,True,True,False,True,50.0,True,True,False,True
+JDW0371,MK03,Struktur Data,3,DSN009,KLP011,40,R34,60,Jumat,10:20,12:50,,Pagi,620,770,Pagi,150,True,True,True,False,,True,,True,True,True,True
+JDW0372,MK09,Sistem Operasi,3,DSN034,KLP025,26,R11,60,Senin,08:40,11:10,Pagi,Siang,520,670,Pagi,150,True,True,True,False,True,False,50.0,False,False,True,True
+JDW0373,MK07,Rekayasa Perangkat Lunak,3,DSN027,KLP060,41,R13,45,Rabu,14:40,17:10,Sore,Siang,880,1030,Siang,150,True,True,True,False,False,True,50.0,False,False,True,True
+JDW0374,MK09,Sistem Operasi,3,DSN034,KLP041,26,R09,25,Selasa,10:20,12:50,Pagi,Sore,620,770,Pagi,150,True,True,True,True,True,False,50.0,False,True,False,True
+JDW0375,MK13,Pemrograman Web,3,DSN052,KLP058,20,R29,30,Senin,14:40,17:10,Siang,Siang,880,1030,Siang,150,True,True,True,False,True,True,100.0,True,True,True,True
+JDW0376,MK12,Pembelajaran Mesin,3,DSN048,KLP010,48,R20,25,Senin,14:40,17:10,,Siang,880,1030,Siang,150,True,True,True,True,,True,,True,False,True,True
+JDW0377,MK08,Jaringan Komputer,3,DSN031,KLP010,48,R14,40,Selasa,16:20,18:50,,Siang,980,1130,Sore,150,True,True,True,True,,False,,True,False,False,True
+JDW0378,MK14,Keamanan Informasi,3,DSN055,KLP016,27,R27,60,Selasa,08:40,11:10,Sore,Pagi,520,670,Pagi,150,True,True,True,False,False,True,50.0,False,False,True,True
+JDW0379,MK04,Statistika,3,DSN014,KLP048,32,R26,45,Rabu,14:40,17:10,Siang,Siang,880,1030,Siang,150,True,True,True,False,True,True,100.0,False,False,True,True
+JDW0380,MK04,Statistika,3,DSN014,KLP036,44,R34,60,Selasa,07:00,09:30,Siang,Sore,420,570,Pagi,150,True,True,True,False,False,False,0.0,False,True,True,True
+JDW0381,MK18,Sains Data,3,DSN072,KLP048,32,R32,40,Kamis,10:20,12:50,Sore,Siang,620,770,Pagi,150,True,True,True,False,False,False,0.0,True,False,True,True
+JDW0382,MK03,Struktur Data,3,DSN009,KLP006,35,R23,60,Selasa,14:40,17:10,,,880,1030,Siang,150,True,True,True,False,,,,False,False,False,False
+JDW0383,MK14,Keamanan Informasi,3,DSN054,KLP005,24,R14,40,Kamis,07:00,09:30,Sore,Siang,420,570,Pagi,150,True,True,True,False,False,False,0.0,True,True,True,True
+JDW0384,MK17,Komputer Vision,3,DSN066,KLP043,46,R25,50,Jumat,07:00,09:30,Siang,Siang,420,570,Pagi,150,True,True,True,False,False,False,0.0,False,False,True,True
+JDW0385,MK10,Kecerdasan Buatan,3,DSN037,KLP015,48,R12,40,Rabu,13:00,15:30,Pagi,Pagi,780,930,Siang,150,True,True,True,True,False,False,0.0,False,False,False,False
+JDW0386,MK05,Kalkulus,3,DSN018,KLP001,22,R26,45,Jumat,13:00,15:30,Siang,Pagi,780,930,Siang,150,True,True,True,False,True,False,50.0,False,False,False,False
+JDW0387,MK12,Pembelajaran Mesin,3,DSN047,KLP014,41,R35,25,Kamis,13:00,15:30,Pagi,Pagi,780,930,Siang,150,True,True,True,True,False,False,0.0,False,False,True,True
+JDW0388,MK08,Jaringan Komputer,3,DSN031,KLP014,41,R35,25,Selasa,14:40,17:10,,Pagi,880,1030,Siang,150,True,True,True,True,,False,,True,True,True,True
+JDW0389,MK17,Komputer Vision,3,DSN066,KLP047,47,R07,40,Selasa,10:20,12:50,Siang,Pagi,620,770,Pagi,150,True,True,True,True,False,True,50.0,False,True,True,True
+JDW0390,MK11,Data Mining,3,DSN043,KLP047,47,R28,60,Senin,10:20,12:50,Siang,Pagi,620,770,Pagi,150,True,True,True,False,False,True,50.0,False,False,False,False
+JDW0391,MK01,Algoritma dan Pemrograman,3,DSN004,KLP044,37,R26,45,Jumat,08:40,11:10,Pagi,Sore,520,670,Pagi,150,True,True,True,False,True,False,50.0,True,True,False,True
+JDW0392,MK18,Sains Data,3,DSN072,KLP036,44,R25,50,Kamis,16:20,18:50,Sore,Sore,980,1130,Sore,150,True,True,True,False,True,True,100.0,True,False,True,True
+JDW0393,MK05,Kalkulus,3,DSN017,KLP021,32,R01,60,Selasa,16:20,18:50,Siang,Siang,980,1130,Sore,150,True,True,True,False,False,False,0.0,False,True,True,True
+JDW0394,MK05,Kalkulus,3,DSN019,KLP053,36,R26,45,Rabu,08:40,11:10,Pagi,Siang,520,670,Pagi,150,True,True,True,False,True,False,50.0,False,True,True,True
+JDW0395,MK05,Kalkulus,3,DSN018,KLP050,25,R31,60,Kamis,07:00,09:30,Siang,Sore,420,570,Pagi,150,True,True,True,False,False,False,0.0,False,False,False,False
+JDW0396,MK15,Interaksi Manusia Komputer,2,DSN060,KLP046,24,R26,45,Senin,08:40,10:20,Siang,Sore,520,620,Pagi,100,True,True,True,False,False,False,0.0,False,False,True,True
+JDW0397,MK16,Analisis dan Desain Sistem,3,DSN064,KLP049,36,R06,25,Senin,07:00,09:30,Siang,Sore,420,570,Pagi,150,True,True,True,True,False,False,0.0,False,False,False,False
+JDW0398,MK13,Pemrograman Web,3,DSN052,KLP006,35,R12,40,Jumat,16:20,18:50,Siang,,980,1130,Sore,150,True,True,True,False,False,,,False,False,False,False
+JDW0399,MK05,Kalkulus,3,DSN018,KLP046,24,R35,25,Kamis,10:20,12:50,Siang,Sore,620,770,Pagi,150,True,True,True,False,False,False,0.0,False,False,True,True
+JDW0400,MK05,Kalkulus,3,DSN020,KLP026,28,R06,25,Kamis,08:40,11:10,Siang,Siang,520,670,Pagi,150,True,True,True,True,False,False,0.0,True,True,True,True
+JDW0401,MK18,Sains Data,3,DSN071,KLP037,45,R05,60,Jumat,07:00,09:30,Siang,Pagi,420,570,Pagi,150,True,True,True,False,False,True,50.0,False,True,True,True
+JDW0402,MK07,Rekayasa Perangkat Lunak,3,DSN028,KLP057,25,R19,35,Kamis,07:00,09:30,Pagi,Siang,420,570,Pagi,150,True,True,True,False,True,False,50.0,True,False,True,True
+JDW0403,MK01,Algoritma dan Pemrograman,3,DSN001,KLP031,20,R32,40,Kamis,10:20,12:50,Siang,Sore,620,770,Pagi,150,True,True,True,False,False,False,0.0,False,False,True,True
+JDW0404,MK13,Pemrograman Web,3,DSN052,KLP005,24,R09,25,Kamis,08:40,11:10,Siang,Siang,520,670,Pagi,150,True,True,True,False,False,False,0.0,True,True,True,True
+JDW0405,MK04,Statistika,3,DSN013,KLP045,50,R12,40,Selasa,10:20,12:50,Pagi,Siang,620,770,Pagi,150,True,True,True,True,True,False,50.0,False,False,False,False
+JDW0406,MK02,Basis Data,3,DSN007,KLP050,25,R02,25,Rabu,10:20,12:50,Pagi,Sore,620,770,Pagi,150,True,True,True,False,True,False,50.0,False,False,True,True
+JDW0407,MK03,Struktur Data,3,DSN012,KLP019,50,R27,60,Senin,07:00,09:30,Pagi,Siang,420,570,Pagi,150,True,True,True,False,True,False,50.0,True,True,False,True
+JDW0408,MK04,Statistika,3,DSN015,KLP010,48,R11,60,Senin,10:20,12:50,Pagi,Siang,620,770,Pagi,150,True,True,True,False,True,False,50.0,False,False,True,True
+JDW0409,MK02,Basis Data,3,DSN008,KLP008,28,R19,35,Jumat,13:00,15:30,Pagi,Siang,780,930,Siang,150,True,True,True,False,False,True,50.0,False,True,True,True
+JDW0410,MK01,Algoritma dan Pemrograman,3,DSN002,KLP006,35,R06,25,Kamis,14:40,17:10,Pagi,,880,1030,Siang,150,True,True,True,True,False,,,False,True,True,True
+JDW0411,MK05,Kalkulus,3,DSN018,KLP031,20,R06,25,Rabu,13:00,15:30,Siang,Sore,780,930,Siang,150,True,True,True,False,True,False,50.0,True,False,True,True
+JDW0412,MK11,Data Mining,3,DSN042,KLP044,37,R31,60,Senin,08:40,11:10,Siang,Sore,520,670,Pagi,150,True,True,True,False,False,False,0.0,False,False,False,False
+JDW0413,MK02,Basis Data,3,DSN006,KLP023,28,R14,40,Senin,08:40,11:10,Pagi,Pagi,520,670,Pagi,150,True,True,True,False,True,True,100.0,True,True,True,True
+JDW0414,MK10,Kecerdasan Buatan,3,DSN038,KLP002,21,R19,35,Rabu,16:20,18:50,Siang,Pagi,980,1130,Sore,150,True,True,True,False,False,False,0.0,False,False,True,True
+JDW0415,MK05,Kalkulus,3,DSN019,KLP037,45,R14,40,Selasa,10:20,12:50,Pagi,Pagi,620,770,Pagi,150,True,True,True,True,True,True,100.0,False,False,True,True
+JDW0416,MK16,Analisis dan Desain Sistem,3,DSN062,KLP009,32,R10,50,Senin,13:00,15:30,Pagi,Siang,780,930,Siang,150,True,True,True,False,False,True,50.0,False,False,False,False
+JDW0417,MK09,Sistem Operasi,3,DSN036,KLP016,27,R10,50,Senin,16:20,18:50,Siang,Pagi,980,1130,Sore,150,True,True,True,False,False,False,0.0,False,True,False,True
+JDW0418,MK07,Rekayasa Perangkat Lunak,3,DSN026,KLP006,35,R34,60,Jumat,07:00,09:30,,,420,570,Pagi,150,True,True,True,False,,,,False,False,False,False
+JDW0419,MK12,Pembelajaran Mesin,3,DSN046,KLP007,22,R13,45,Kamis,07:00,09:30,Siang,Pagi,420,570,Pagi,150,True,True,True,False,False,True,50.0,False,True,True,True
+JDW0420,MK06,Aljabar Linear,3,DSN024,KLP007,22,R35,25,Kamis,08:40,11:10,Pagi,Pagi,520,670,Pagi,150,True,True,True,False,True,True,100.0,True,True,True,True
+JDW0421,MK12,Pembelajaran Mesin,3,DSN046,KLP027,36,R29,30,Senin,13:00,15:30,Siang,Siang,780,930,Siang,150,True,True,True,True,True,True,100.0,False,False,True,True
+JDW0422,MK08,Jaringan Komputer,3,DSN031,KLP028,41,R10,50,Jumat,16:20,18:50,,Pagi,980,1130,Sore,150,True,True,True,False,,False,,False,True,True,True
+JDW0423,MK04,Statistika,3,DSN013,KLP035,43,R22,60,Jumat,08:40,11:10,Pagi,Siang,520,670,Pagi,150,True,True,True,False,True,False,50.0,False,True,False,True
+JDW0424,MK09,Sistem Operasi,3,DSN035,KLP032,29,R33,45,Rabu,07:00,09:30,Sore,,420,570,Pagi,150,True,True,True,False,False,,,False,True,False,True
+JDW0425,MK14,Keamanan Informasi,3,DSN054,KLP022,37,R21,60,Selasa,16:20,18:50,Sore,Pagi,980,1130,Sore,150,True,True,True,False,True,False,50.0,True,True,True,True
+JDW0426,MK17,Komputer Vision,3,DSN068,KLP017,23,R34,60,Kamis,10:20,12:50,Siang,Siang,620,770,Pagi,150,True,True,True,False,False,False,0.0,False,False,True,True
+JDW0427,MK10,Kecerdasan Buatan,3,DSN038,KLP021,32,R30,50,Selasa,10:20,12:50,Siang,Siang,620,770,Pagi,150,True,True,True,False,False,False,0.0,False,False,False,False
+JDW0428,MK14,Keamanan Informasi,3,DSN055,KLP050,25,R29,30,Jumat,16:20,18:50,Sore,Sore,980,1130,Sore,150,True,True,True,False,True,True,100.0,True,False,False,True
+JDW0429,MK02,Basis Data,3,DSN008,KLP048,32,R04,30,Senin,10:20,12:50,Pagi,Siang,620,770,Pagi,150,True,True,True,True,True,False,50.0,False,False,True,True
+JDW0430,MK02,Basis Data,3,DSN007,KLP022,37,R04,30,Senin,10:20,12:50,Pagi,Pagi,620,770,Pagi,150,True,True,True,True,True,True,100.0,False,True,True,True
+JDW0431,MK10,Kecerdasan Buatan,3,DSN037,KLP038,43,R11,60,Kamis,07:00,09:30,Pagi,Pagi,420,570,Pagi,150,True,True,True,False,True,True,100.0,True,False,True,True
+JDW0432,MK03,Struktur Data,3,DSN009,KLP036,44,R05,60,Selasa,07:00,09:30,,Sore,420,570,Pagi,150,True,True,True,False,,False,,False,True,False,True
+JDW0433,MK05,Kalkulus,3,DSN020,KLP012,28,R09,25,Kamis,13:00,15:30,Siang,Pagi,780,930,Siang,150,True,True,True,True,True,False,50.0,False,False,False,False
+JDW0434,MK11,Data Mining,3,DSN044,KLP053,36,R01,60,Kamis,10:20,12:50,Siang,Siang,620,770,Pagi,150,True,True,True,False,False,False,0.0,False,False,True,True
+JDW0435,MK06,Aljabar Linear,3,DSN022,KLP034,21,R23,60,Selasa,08:40,11:10,,Pagi,520,670,Pagi,150,True,True,True,False,,True,,True,False,False,True
+JDW0436,MK12,Pembelajaran Mesin,3,DSN047,KLP008,28,R30,50,Rabu,13:00,15:30,Pagi,Siang,780,930,Siang,150,True,True,True,False,False,True,50.0,True,False,False,True
+JDW0437,MK03,Struktur Data,3,DSN011,KLP053,36,R19,35,Jumat,07:00,09:30,Pagi,Siang,420,570,Pagi,150,True,True,True,True,True,False,50.0,False,False,True,True
+JDW0438,MK16,Analisis dan Desain Sistem,3,DSN062,KLP041,26,R02,25,Selasa,08:40,11:10,Pagi,Sore,520,670,Pagi,150,True,True,True,True,True,False,50.0,False,True,True,True
+JDW0439,MK01,Algoritma dan Pemrograman,3,DSN001,KLP037,45,R28,60,Senin,13:00,15:30,Siang,Pagi,780,930,Siang,150,True,True,True,False,True,False,50.0,False,False,True,True
+JDW0440,MK18,Sains Data,3,DSN071,KLP050,25,R17,25,Senin,14:40,17:10,Siang,Sore,880,1030,Siang,150,True,True,True,False,True,False,50.0,False,True,True,True
+JDW0441,MK02,Basis Data,3,DSN008,KLP026,28,R31,60,Senin,14:40,17:10,Pagi,Siang,880,1030,Siang,150,True,True,True,False,False,True,50.0,True,False,True,True
+JDW0442,MK09,Sistem Operasi,3,DSN034,KLP021,32,R31,60,Rabu,08:40,11:10,Pagi,Siang,520,670,Pagi,150,True,True,True,False,True,False,50.0,True,False,True,True
+JDW0443,MK13,Pemrograman Web,3,DSN052,KLP039,21,R21,60,Selasa,14:40,17:10,Siang,Siang,880,1030,Siang,150,True,True,True,False,True,True,100.0,True,False,True,True
+JDW0444,MK02,Basis Data,3,DSN007,KLP045,50,R19,35,Selasa,07:00,09:30,Pagi,Siang,420,570,Pagi,150,True,True,True,True,True,False,50.0,False,True,False,True
+JDW0445,MK11,Data Mining,3,DSN043,KLP022,37,R28,60,Kamis,13:00,15:30,Siang,Pagi,780,930,Siang,150,True,True,True,False,True,False,50.0,False,True,False,True
+JDW0446,MK08,Jaringan Komputer,3,DSN032,KLP001,22,R31,60,Senin,16:20,18:50,Siang,Pagi,980,1130,Sore,150,True,True,True,False,False,False,0.0,True,True,True,True
+JDW0447,MK13,Pemrograman Web,3,DSN049,KLP046,24,R27,60,Selasa,08:40,11:10,Pagi,Sore,520,670,Pagi,150,True,True,True,False,True,False,50.0,True,True,True,True
+JDW0448,MK16,Analisis dan Desain Sistem,3,DSN062,KLP015,48,R17,25,Rabu,07:00,09:30,Pagi,Pagi,420,570,Pagi,150,True,True,True,True,True,True,100.0,False,True,True,True
+JDW0449,MK03,Struktur Data,3,DSN010,KLP044,37,R31,60,Kamis,13:00,15:30,Siang,Sore,780,930,Siang,150,True,True,True,False,True,False,50.0,False,False,True,True
+JDW0450,MK10,Kecerdasan Buatan,3,DSN037,KLP043,46,R17,25,Rabu,08:40,11:10,Pagi,Siang,520,670,Pagi,150,True,True,True,True,True,False,50.0,False,True,True,True
+JDW0451,MK13,Pemrograman Web,3,DSN052,KLP048,32,R21,60,Senin,16:20,18:50,Siang,Siang,980,1130,Sore,150,True,True,True,False,False,False,0.0,True,True,True,True
+JDW0452,MK07,Rekayasa Perangkat Lunak,3,DSN027,KLP018,29,R09,25,Selasa,16:20,18:50,Sore,Pagi,980,1130,Sore,150,True,True,True,True,True,False,50.0,True,False,False,True
+JDW0453,MK09,Sistem Operasi,3,DSN033,KLP005,24,R15,25,Rabu,14:40,17:10,Pagi,Siang,880,1030,Siang,150,True,True,True,False,False,True,50.0,True,False,True,True
+JDW0454,MK07,Rekayasa Perangkat Lunak,3,DSN028,KLP038,43,R02,25,Selasa,08:40,11:10,Pagi,Pagi,520,670,Pagi,150,True,True,True,True,True,True,100.0,False,True,True,True
+JDW0455,MK06,Aljabar Linear,3,DSN022,KLP055,49,R05,60,Jumat,16:20,18:50,,Siang,980,1130,Sore,150,True,True,True,False,,False,,False,False,False,False
+JDW0456,MK04,Statistika,3,DSN015,KLP037,45,R21,60,Senin,07:00,09:30,Pagi,Pagi,420,570,Pagi,150,True,True,True,False,True,True,100.0,False,False,True,True
+JDW0457,MK18,Sains Data,3,DSN072,KLP018,29,R03,40,Rabu,10:20,12:50,Sore,Pagi,620,770,Pagi,150,True,True,True,False,False,True,50.0,False,False,True,True
+JDW0458,MK07,Rekayasa Perangkat Lunak,3,DSN025,KLP036,44,R05,60,Jumat,10:20,12:50,Sore,Sore,620,770,Pagi,150,True,True,True,False,False,False,0.0,True,True,True,True
+JDW0459,MK04,Statistika,3,DSN016,KLP028,41,R20,25,Jumat,10:20,12:50,Siang,Pagi,620,770,Pagi,150,True,True,True,True,False,True,50.0,True,False,False,True
+JDW0460,MK13,Pemrograman Web,3,DSN052,KLP022,37,R18,50,Selasa,14:40,17:10,Siang,Pagi,880,1030,Siang,150,True,True,True,False,True,False,50.0,True,True,False,True
+JDW0461,MK07,Rekayasa Perangkat Lunak,3,DSN026,KLP049,36,R21,60,Selasa,10:20,12:50,,Sore,620,770,Pagi,150,True,True,True,False,,False,,False,False,False,False
+JDW0462,MK08,Jaringan Komputer,3,DSN029,KLP007,22,R03,40,Jumat,07:00,09:30,Siang,Pagi,420,570,Pagi,150,True,True,True,False,False,True,50.0,True,False,False,True
+JDW0463,MK18,Sains Data,3,DSN072,KLP006,35,R17,25,Rabu,16:20,18:50,Sore,,980,1130,Sore,150,True,True,True,True,True,,,True,True,True,True
+JDW0464,MK08,Jaringan Komputer,3,DSN032,KLP016,27,R27,60,Senin,16:20,18:50,Siang,Pagi,980,1130,Sore,150,True,True,True,False,False,False,0.0,True,True,True,True
+JDW0465,MK11,Data Mining,3,DSN041,KLP014,41,R31,60,Senin,14:40,17:10,Siang,Pagi,880,1030,Siang,150,True,True,True,False,True,False,50.0,False,False,True,True
+JDW0466,MK01,Algoritma dan Pemrograman,3,DSN003,KLP019,50,R19,35,Kamis,14:40,17:10,Pagi,Siang,880,1030,Siang,150,True,True,True,True,False,True,50.0,False,False,False,False
+JDW0467,MK07,Rekayasa Perangkat Lunak,3,DSN027,KLP015,48,R16,25,Jumat,13:00,15:30,Sore,Pagi,780,930,Siang,150,True,True,True,True,False,False,0.0,True,False,True,True
+JDW0468,MK18,Sains Data,3,DSN069,KLP007,22,R03,40,Senin,08:40,11:10,Pagi,Pagi,520,670,Pagi,150,True,True,True,False,True,True,100.0,True,False,False,True
+JDW0469,MK09,Sistem Operasi,3,DSN036,KLP026,28,R06,25,Rabu,10:20,12:50,Siang,Siang,620,770,Pagi,150,True,True,True,True,False,False,0.0,True,True,True,True
+JDW0470,MK01,Algoritma dan Pemrograman,3,DSN004,KLP034,21,R07,40,Kamis,13:00,15:30,Pagi,Pagi,780,930,Siang,150,True,True,True,False,False,False,0.0,False,False,False,False
+JDW0471,MK15,Interaksi Manusia Komputer,2,DSN059,KLP020,32,R15,25,Selasa,14:40,16:20,Pagi,Siang,880,980,Siang,100,True,True,True,True,False,True,50.0,True,True,True,True
+JDW0472,MK08,Jaringan Komputer,3,DSN031,KLP036,44,R32,40,Senin,10:20,12:50,,Sore,620,770,Pagi,150,True,True,True,True,,False,,True,False,True,True
+JDW0473,MK12,Pembelajaran Mesin,3,DSN047,KLP046,24,R06,25,Selasa,07:00,09:30,Pagi,Sore,420,570,Pagi,150,True,True,True,False,True,False,50.0,True,True,False,True
+JDW0474,MK15,Interaksi Manusia Komputer,2,DSN060,KLP006,35,R12,40,Kamis,10:20,12:00,Siang,,620,720,Pagi,100,True,True,True,False,False,,,False,True,True,True
+JDW0475,MK18,Sains Data,3,DSN071,KLP016,27,R34,60,Jumat,10:20,12:50,Siang,Pagi,620,770,Pagi,150,True,True,True,False,False,True,50.0,False,True,True,True
+JDW0476,MK14,Keamanan Informasi,3,DSN055,KLP021,32,R26,45,Kamis,10:20,12:50,Sore,Siang,620,770,Pagi,150,True,True,True,False,False,False,0.0,False,False,True,True
+JDW0477,MK05,Kalkulus,3,DSN017,KLP036,44,R12,40,Senin,14:40,17:10,Siang,Sore,880,1030,Siang,150,True,True,True,True,True,False,50.0,True,True,True,True
+JDW0478,MK16,Analisis dan Desain Sistem,3,DSN063,KLP020,32,R17,25,Rabu,10:20,12:50,Sore,Siang,620,770,Pagi,150,True,True,True,True,False,False,0.0,True,False,True,True
+JDW0479,MK06,Aljabar Linear,3,DSN023,KLP025,26,R25,50,Selasa,16:20,18:50,Pagi,Siang,980,1130,Sore,150,True,True,True,False,False,False,0.0,False,False,False,False
+JDW0480,MK10,Kecerdasan Buatan,3,DSN037,KLP057,25,R15,25,Jumat,16:20,18:50,Pagi,Siang,980,1130,Sore,150,True,True,True,False,False,False,0.0,False,False,False,False
+JDW0481,MK14,Keamanan Informasi,3,DSN056,KLP032,29,R03,40,Selasa,07:00,09:30,Siang,,420,570,Pagi,150,True,True,True,False,False,,,False,True,True,True
+JDW0482,MK13,Pemrograman Web,3,DSN050,KLP003,48,R19,35,Jumat,07:00,09:30,Siang,Pagi,420,570,Pagi,150,True,True,True,True,False,True,50.0,False,False,True,True
+JDW0483,MK04,Statistika,3,DSN016,KLP047,47,R25,50,Jumat,08:40,11:10,Siang,Pagi,520,670,Pagi,150,True,True,True,False,False,True,50.0,True,True,True,True
+JDW0484,MK07,Rekayasa Perangkat Lunak,3,DSN028,KLP012,28,R09,25,Jumat,13:00,15:30,Pagi,Pagi,780,930,Siang,150,True,True,True,True,False,False,0.0,False,True,False,True
+JDW0485,MK01,Algoritma dan Pemrograman,3,DSN003,KLP013,50,R30,50,Rabu,08:40,11:10,Pagi,,520,670,Pagi,150,True,True,True,False,True,,,True,True,False,True
+JDW0486,MK04,Statistika,3,DSN016,KLP034,21,R18,50,Rabu,10:20,12:50,Siang,Pagi,620,770,Pagi,150,True,True,True,False,False,True,50.0,False,True,True,True
+JDW0487,MK06,Aljabar Linear,3,DSN023,KLP005,24,R16,25,Senin,14:40,17:10,Pagi,Siang,880,1030,Siang,150,True,True,True,False,False,True,50.0,False,False,True,True
+JDW0488,MK06,Aljabar Linear,3,DSN024,KLP052,27,R31,60,Rabu,13:00,15:30,Pagi,Pagi,780,930,Siang,150,True,True,True,False,False,False,0.0,False,True,True,True
+JDW0489,MK12,Pembelajaran Mesin,3,DSN047,KLP042,35,R06,25,Selasa,10:20,12:50,Pagi,Sore,620,770,Pagi,150,True,True,True,True,True,False,50.0,False,False,False,False
+JDW0490,MK02,Basis Data,3,DSN005,KLP030,42,R14,40,Selasa,13:00,15:30,Pagi,Siang,780,930,Siang,150,True,True,True,True,False,True,50.0,True,False,False,True
+JDW0491,MK13,Pemrograman Web,3,DSN049,KLP045,50,R20,25,Selasa,07:00,09:30,Pagi,Siang,420,570,Pagi,150,True,True,True,True,True,False,50.0,True,True,False,True
+JDW0492,MK06,Aljabar Linear,3,DSN024,KLP048,32,R02,25,Selasa,10:20,12:50,Pagi,Siang,620,770,Pagi,150,True,True,True,True,True,False,50.0,True,False,True,True
+JDW0493,MK02,Basis Data,3,DSN008,KLP001,22,R21,60,Jumat,16:20,18:50,Pagi,Pagi,980,1130,Sore,150,True,True,True,False,False,False,0.0,False,False,True,True
+JDW0494,MK08,Jaringan Komputer,3,DSN029,KLP037,45,R31,60,Jumat,07:00,09:30,Siang,Pagi,420,570,Pagi,150,True,True,True,False,False,True,50.0,True,True,True,True
+JDW0495,MK08,Jaringan Komputer,3,DSN032,KLP053,36,R16,25,Rabu,08:40,11:10,Siang,Siang,520,670,Pagi,150,True,True,True,True,False,False,0.0,True,True,True,True
+JDW0496,MK12,Pembelajaran Mesin,3,DSN045,KLP043,46,R15,25,Jumat,10:20,12:50,Pagi,Siang,620,770,Pagi,150,True,True,True,True,True,False,50.0,True,False,True,True
+JDW0497,MK17,Komputer Vision,3,DSN065,KLP026,28,R17,25,Selasa,13:00,15:30,Pagi,Siang,780,930,Siang,150,True,True,True,True,False,True,50.0,False,False,False,False
+JDW0498,MK04,Statistika,3,DSN016,KLP058,20,R27,60,Kamis,16:20,18:50,Siang,Siang,980,1130,Sore,150,True,True,True,False,False,False,0.0,True,True,False,True
+JDW0499,MK11,Data Mining,3,DSN041,KLP031,20,R11,60,Kamis,16:20,18:50,Siang,Sore,980,1130,Sore,150,True,True,True,False,False,True,50.0,True,True,True,True
+JDW0500,MK11,Data Mining,3,DSN042,KLP056,24,R12,40,Kamis,08:40,11:10,Siang,Siang,520,670,Pagi,150,True,True,True,False,False,False,0.0,False,True,True,True
+JDW0501,MK03,Struktur Data,3,DSN009,KLP046,24,R24,40,Jumat,10:20,12:50,,Sore,620,770,Pagi,150,True,True,True,False,,False,,True,False,False,True
+JDW0502,MK02,Basis Data,3,DSN007,KLP047,47,R13,45,Rabu,07:00,09:30,Pagi,Pagi,420,570,Pagi,150,True,True,True,True,True,True,100.0,False,True,False,True
+JDW0503,MK15,Interaksi Manusia Komputer,2,DSN060,KLP040,37,R34,60,Kamis,07:00,08:40,Siang,Siang,420,520,Pagi,100,True,True,True,False,False,False,0.0,False,False,False,False
+JDW0504,MK14,Keamanan Informasi,3,DSN055,KLP047,47,R30,50,Jumat,16:20,18:50,Sore,Pagi,980,1130,Sore,150,True,True,True,False,True,False,50.0,True,False,True,True
+JDW0505,MK12,Pembelajaran Mesin,3,DSN047,KLP028,41,R08,40,Jumat,16:20,18:50,Pagi,Pagi,980,1130,Sore,150,True,True,True,True,False,False,0.0,False,True,False,True
+JDW0506,MK03,Struktur Data,3,DSN009,KLP005,24,R11,60,Senin,07:00,09:30,,Siang,420,570,Pagi,150,True,True,True,False,,False,,False,False,True,True
+JDW0507,MK13,Pemrograman Web,3,DSN052,KLP023,28,R30,50,Senin,16:20,18:50,Siang,Pagi,980,1130,Sore,150,True,True,True,False,False,False,0.0,True,True,False,True
+JDW0508,MK16,Analisis dan Desain Sistem,3,DSN061,KLP056,24,R24,40,Senin,07:00,09:30,Sore,Siang,420,570,Pagi,150,True,True,True,False,False,False,0.0,False,False,True,True
+JDW0509,MK04,Statistika,3,DSN015,KLP042,35,R22,60,Selasa,13:00,15:30,Pagi,Sore,780,930,Siang,150,True,True,True,False,False,False,0.0,False,True,True,True
+JDW0510,MK06,Aljabar Linear,3,DSN022,KLP030,42,R23,60,Kamis,07:00,09:30,,Siang,420,570,Pagi,150,True,True,True,False,,False,,False,False,True,True
+JDW0511,MK08,Jaringan Komputer,3,DSN030,KLP030,42,R13,45,Senin,14:40,17:10,Siang,Siang,880,1030,Siang,150,True,True,True,False,True,True,100.0,True,False,True,True
+JDW0512,MK04,Statistika,3,DSN014,KLP006,35,R21,60,Kamis,13:00,15:30,Siang,,780,930,Siang,150,True,True,True,False,True,,,False,True,False,True
+JDW0513,MK11,Data Mining,3,DSN043,KLP034,21,R13,45,Jumat,07:00,09:30,Siang,Pagi,420,570,Pagi,150,True,True,True,False,False,True,50.0,False,True,False,True
+JDW0514,MK09,Sistem Operasi,3,DSN034,KLP034,21,R22,60,Rabu,10:20,12:50,Pagi,Pagi,620,770,Pagi,150,True,True,True,False,True,True,100.0,True,True,True,True
+JDW0515,MK08,Jaringan Komputer,3,DSN029,KLP042,35,R15,25,Jumat,08:40,11:10,Siang,Sore,520,670,Pagi,150,True,True,True,True,False,False,0.0,True,True,True,True
+JDW0516,MK10,Kecerdasan Buatan,3,DSN039,KLP019,50,R28,60,Senin,13:00,15:30,Pagi,Siang,780,930,Siang,150,True,True,True,False,False,True,50.0,True,True,True,True
+JDW0517,MK01,Algoritma dan Pemrograman,3,DSN004,KLP021,32,R15,25,Selasa,16:20,18:50,Pagi,Siang,980,1130,Sore,150,True,True,True,True,False,False,0.0,True,True,True,True
+JDW0518,MK04,Statistika,3,DSN013,KLP011,40,R23,60,Senin,14:40,17:10,Pagi,Pagi,880,1030,Siang,150,True,True,True,False,False,False,0.0,True,True,True,True
+JDW0519,MK04,Statistika,3,DSN014,KLP041,26,R18,50,Rabu,08:40,11:10,Siang,Sore,520,670,Pagi,150,True,True,True,False,False,False,0.0,True,True,True,True
+JDW0520,MK02,Basis Data,3,DSN005,KLP015,48,R11,60,Kamis,14:40,17:10,Pagi,Pagi,880,1030,Siang,150,True,True,True,False,False,False,0.0,True,False,True,True
+JDW0521,MK09,Sistem Operasi,3,DSN036,KLP057,25,R23,60,Senin,10:20,12:50,Siang,Siang,620,770,Pagi,150,True,True,True,False,False,False,0.0,False,True,False,True
+JDW0522,MK10,Kecerdasan Buatan,3,DSN040,KLP034,21,R20,25,Kamis,10:20,12:50,Siang,Pagi,620,770,Pagi,150,True,True,True,False,False,True,50.0,False,False,False,False
+JDW0523,MK18,Sains Data,3,DSN072,KLP057,25,R10,50,Selasa,14:40,17:10,Sore,Siang,880,1030,Siang,150,True,True,True,False,False,True,50.0,True,True,True,True
+JDW0524,MK09,Sistem Operasi,3,DSN035,KLP052,27,R08,40,Kamis,16:20,18:50,Sore,Pagi,980,1130,Sore,150,True,True,True,False,True,False,50.0,True,False,False,True
+JDW0525,MK13,Pemrograman Web,3,DSN051,KLP018,29,R27,60,Senin,14:40,17:10,Siang,Pagi,880,1030,Siang,150,True,True,True,False,True,False,50.0,False,True,True,True
+JDW0526,MK07,Rekayasa Perangkat Lunak,3,DSN027,KLP037,45,R31,60,Selasa,16:20,18:50,Sore,Pagi,980,1130,Sore,150,True,True,True,False,True,False,50.0,True,False,True,True
+JDW0527,MK10,Kecerdasan Buatan,3,DSN037,KLP059,32,R07,40,Selasa,07:00,09:30,Pagi,Siang,420,570,Pagi,150,True,True,True,False,True,False,50.0,False,True,True,True
+JDW0528,MK04,Statistika,3,DSN016,KLP001,22,R20,25,Kamis,13:00,15:30,Siang,Pagi,780,930,Siang,150,True,True,True,False,True,False,50.0,False,False,False,False
+JDW0529,MK08,Jaringan Komputer,3,DSN030,KLP029,22,R01,60,Kamis,08:40,11:10,Siang,Sore,520,670,Pagi,150,True,True,True,False,False,False,0.0,False,False,True,True
+JDW0530,MK04,Statistika,3,DSN013,KLP018,29,R01,60,Jumat,16:20,18:50,Pagi,Pagi,980,1130,Sore,150,True,True,True,False,False,False,0.0,True,False,False,True
+JDW0531,MK05,Kalkulus,3,DSN018,KLP011,40,R05,60,Senin,13:00,15:30,Siang,Pagi,780,930,Siang,150,True,True,True,False,True,False,50.0,False,True,False,True
+JDW0532,MK04,Statistika,3,DSN016,KLP017,23,R34,60,Selasa,16:20,18:50,Siang,Siang,980,1130,Sore,150,True,True,True,False,False,False,0.0,False,False,True,True
+JDW0533,MK02,Basis Data,3,DSN005,KLP059,32,R02,25,Selasa,14:40,17:10,Pagi,Siang,880,1030,Siang,150,True,True,True,True,False,True,50.0,True,True,True,True
+JDW0534,MK04,Statistika,3,DSN013,KLP051,42,R12,40,Rabu,07:00,09:30,Pagi,Pagi,420,570,Pagi,150,True,True,True,True,True,True,100.0,True,False,False,True
+JDW0535,MK09,Sistem Operasi,3,DSN035,KLP017,23,R14,40,Senin,10:20,12:50,Sore,Siang,620,770,Pagi,150,True,True,True,False,False,False,0.0,True,False,True,True
+JDW0536,MK16,Analisis dan Desain Sistem,3,DSN063,KLP050,25,R06,25,Selasa,14:40,17:10,Sore,Sore,880,1030,Siang,150,True,True,True,False,False,False,0.0,True,False,True,True
+JDW0537,MK06,Aljabar Linear,3,DSN024,KLP016,27,R24,40,Jumat,14:40,17:10,Pagi,Pagi,880,1030,Siang,150,True,True,True,False,False,False,0.0,False,False,True,True
+JDW0538,MK17,Komputer Vision,3,DSN066,KLP057,25,R34,60,Senin,13:00,15:30,Siang,Siang,780,930,Siang,150,True,True,True,False,True,True,100.0,False,False,True,True
+JDW0539,MK03,Struktur Data,3,DSN011,KLP027,36,R29,30,Selasa,16:20,18:50,Pagi,Siang,980,1130,Sore,150,True,True,True,True,False,False,0.0,False,False,False,False
+JDW0540,MK12,Pembelajaran Mesin,3,DSN048,KLP050,25,R31,60,Rabu,07:00,09:30,,Sore,420,570,Pagi,150,True,True,True,False,,False,,True,False,True,True
+JDW0541,MK04,Statistika,3,DSN013,KLP052,27,R04,30,Senin,13:00,15:30,Pagi,Pagi,780,930,Siang,150,True,True,True,False,False,False,0.0,True,True,False,True
+JDW0542,MK08,Jaringan Komputer,3,DSN031,KLP023,28,R18,50,Senin,14:40,17:10,,Pagi,880,1030,Siang,150,True,True,True,False,,False,,False,True,True,True
+JDW0543,MK06,Aljabar Linear,3,DSN024,KLP058,20,R26,45,Kamis,16:20,18:50,Pagi,Siang,980,1130,Sore,150,True,True,True,False,False,False,0.0,False,True,False,True
+JDW0544,MK17,Komputer Vision,3,DSN068,KLP023,28,R18,50,Senin,16:20,18:50,Siang,Pagi,980,1130,Sore,150,True,True,True,False,False,False,0.0,False,True,True,True
+JDW0545,MK17,Komputer Vision,3,DSN065,KLP051,42,R25,50,Jumat,13:00,15:30,Pagi,Pagi,780,930,Siang,150,True,True,True,False,False,False,0.0,True,False,True,True
+JDW0546,MK09,Sistem Operasi,3,DSN033,KLP023,28,R06,25,Jumat,08:40,11:10,Pagi,Pagi,520,670,Pagi,150,True,True,True,True,True,True,100.0,False,False,True,True
+JDW0547,MK01,Algoritma dan Pemrograman,3,DSN004,KLP041,26,R06,25,Selasa,14:40,17:10,Pagi,Sore,880,1030,Siang,150,True,True,True,True,False,False,0.0,True,True,True,True
+JDW0548,MK12,Pembelajaran Mesin,3,DSN047,KLP034,21,R05,60,Rabu,16:20,18:50,Pagi,Pagi,980,1130,Sore,150,True,True,True,False,False,False,0.0,True,False,False,True
+JDW0549,MK05,Kalkulus,3,DSN017,KLP052,27,R24,40,Senin,07:00,09:30,Siang,Pagi,420,570,Pagi,150,True,True,True,False,False,True,50.0,True,True,True,True
+JDW0550,MK11,Data Mining,3,DSN041,KLP008,28,R17,25,Rabu,08:40,11:10,Siang,Siang,520,670,Pagi,150,True,True,True,True,False,False,0.0,True,True,True,True
+JDW0551,MK09,Sistem Operasi,3,DSN036,KLP031,20,R28,60,Rabu,08:40,11:10,Siang,Sore,520,670,Pagi,150,True,True,True,False,False,False,0.0,True,False,False,True
+JDW0552,MK11,Data Mining,3,DSN042,KLP042,35,R31,60,Rabu,14:40,17:10,Siang,Sore,880,1030,Siang,150,True,True,True,False,True,False,50.0,False,True,True,True
+JDW0553,MK01,Algoritma dan Pemrograman,3,DSN001,KLP018,29,R06,25,Rabu,14:40,17:10,Siang,Pagi,880,1030,Siang,150,True,True,True,True,True,False,50.0,True,False,True,True
+JDW0554,MK06,Aljabar Linear,3,DSN021,KLP027,36,R16,25,Kamis,07:00,09:30,Pagi,Siang,420,570,Pagi,150,True,True,True,True,True,False,50.0,False,True,True,True
+JDW0555,MK07,Rekayasa Perangkat Lunak,3,DSN026,KLP020,32,R11,60,Kamis,13:00,15:30,,Siang,780,930,Siang,150,True,True,True,False,,True,,True,False,True,True
+JDW0556,MK01,Algoritma dan Pemrograman,3,DSN002,KLP052,27,R12,40,Jumat,13:00,15:30,Pagi,Pagi,780,930,Siang,150,True,True,True,False,False,False,0.0,False,False,False,False
+JDW0557,MK16,Analisis dan Desain Sistem,3,DSN063,KLP016,27,R21,60,Rabu,13:00,15:30,Sore,Pagi,780,930,Siang,150,True,True,True,False,False,False,0.0,False,True,True,True
+JDW0558,MK07,Rekayasa Perangkat Lunak,3,DSN026,KLP042,35,R12,40,Kamis,07:00,09:30,,Sore,420,570,Pagi,150,True,True,True,False,,False,,False,False,True,True
+JDW0559,MK11,Data Mining,3,DSN043,KLP038,43,R13,45,Selasa,13:00,15:30,Siang,Pagi,780,930,Siang,150,True,True,True,False,True,False,50.0,False,True,True,True
+JDW0560,MK12,Pembelajaran Mesin,3,DSN045,KLP058,20,R17,25,Rabu,13:00,15:30,Pagi,Siang,780,930,Siang,150,True,True,True,False,False,True,50.0,False,True,True,True
+JDW0561,MK02,Basis Data,3,DSN007,KLP052,27,R09,25,Jumat,10:20,12:50,Pagi,Pagi,620,770,Pagi,150,True,True,True,True,True,True,100.0,True,False,True,True
+JDW0562,MK10,Kecerdasan Buatan,3,DSN038,KLP020,32,R16,25,Senin,08:40,11:10,Siang,Siang,520,670,Pagi,150,True,True,True,True,False,False,0.0,False,True,True,True
+JDW0563,MK10,Kecerdasan Buatan,3,DSN039,KLP041,26,R13,45,Kamis,14:40,17:10,Pagi,Sore,880,1030,Siang,150,True,True,True,False,False,False,0.0,False,True,True,True
+JDW0564,MK01,Algoritma dan Pemrograman,3,DSN004,KLP024,20,R11,60,Senin,07:00,09:30,Pagi,Sore,420,570,Pagi,150,True,True,True,False,True,False,50.0,False,False,True,True
+JDW0565,MK01,Algoritma dan Pemrograman,3,DSN003,KLP054,33,R08,40,Kamis,07:00,09:30,Pagi,,420,570,Pagi,150,True,True,True,False,True,,,False,True,False,True
+JDW0566,MK05,Kalkulus,3,DSN020,KLP014,41,R11,60,Rabu,16:20,18:50,Siang,Pagi,980,1130,Sore,150,True,True,True,False,False,False,0.0,False,False,False,False
+JDW0567,MK11,Data Mining,3,DSN041,KLP026,28,R14,40,Rabu,08:40,11:10,Siang,Siang,520,670,Pagi,150,True,True,True,False,False,False,0.0,True,True,False,True
+JDW0568,MK12,Pembelajaran Mesin,3,DSN048,KLP002,21,R11,60,Rabu,07:00,09:30,,Pagi,420,570,Pagi,150,True,True,True,False,,True,,True,False,True,True
+JDW0569,MK10,Kecerdasan Buatan,3,DSN038,KLP054,33,R15,25,Kamis,10:20,12:50,Siang,,620,770,Pagi,150,True,True,True,True,False,,,True,True,True,True
+JDW0570,MK18,Sains Data,3,DSN072,KLP009,32,R18,50,Senin,10:20,12:50,Sore,Siang,620,770,Pagi,150,True,True,True,False,False,False,0.0,False,False,True,True
+JDW0571,MK03,Struktur Data,3,DSN010,KLP012,28,R07,40,Jumat,07:00,09:30,Siang,Pagi,420,570,Pagi,150,True,True,True,False,False,True,50.0,False,True,False,True
+JDW0572,MK02,Basis Data,3,DSN005,KLP006,35,R35,25,Kamis,13:00,15:30,Pagi,,780,930,Siang,150,True,True,True,True,False,,,True,True,True,True
+JDW0573,MK04,Statistika,3,DSN014,KLP055,49,R33,45,Kamis,07:00,09:30,Siang,Siang,420,570,Pagi,150,True,True,True,True,False,False,0.0,False,True,True,True
+JDW0574,MK18,Sains Data,3,DSN070,KLP028,41,R33,45,Selasa,08:40,11:10,Pagi,Pagi,520,670,Pagi,150,True,True,True,False,True,True,100.0,True,False,True,True
+JDW0575,MK07,Rekayasa Perangkat Lunak,3,DSN028,KLP021,32,R08,40,Rabu,13:00,15:30,Pagi,Siang,780,930,Siang,150,True,True,True,False,False,True,50.0,False,False,True,True
+JDW0576,MK04,Statistika,3,DSN016,KLP019,50,R29,30,Kamis,07:00,09:30,Siang,Siang,420,570,Pagi,150,True,True,True,True,False,False,0.0,False,False,False,False
+JDW0577,MK15,Interaksi Manusia Komputer,2,DSN057,KLP041,26,R14,40,Jumat,14:40,16:20,Pagi,Sore,880,980,Siang,100,True,True,True,False,False,False,0.0,False,False,False,False
+JDW0578,MK16,Analisis dan Desain Sistem,3,DSN061,KLP002,21,R02,25,Senin,10:20,12:50,Sore,Pagi,620,770,Pagi,150,True,True,True,False,False,True,50.0,False,False,False,False
+JDW0579,MK15,Interaksi Manusia Komputer,2,DSN058,KLP045,50,R15,25,Kamis,14:40,16:20,Siang,Siang,880,980,Siang,100,True,True,True,True,True,True,100.0,False,False,True,True
+JDW0580,MK12,Pembelajaran Mesin,3,DSN045,KLP005,24,R31,60,Jumat,10:20,12:50,Pagi,Siang,620,770,Pagi,150,True,True,True,False,True,False,50.0,True,False,False,True
+JDW0581,MK02,Basis Data,3,DSN008,KLP027,36,R34,60,Kamis,10:20,12:50,Pagi,Siang,620,770,Pagi,150,True,True,True,False,True,False,50.0,False,False,True,True
+JDW0582,MK01,Algoritma dan Pemrograman,3,DSN001,KLP033,49,R13,45,Selasa,14:40,17:10,Siang,Sore,880,1030,Siang,150,True,True,True,True,True,False,50.0,True,True,True,True
+JDW0583,MK16,Analisis dan Desain Sistem,3,DSN064,KLP045,50,R08,40,Rabu,13:00,15:30,Siang,Siang,780,930,Siang,150,True,True,True,True,True,True,100.0,False,True,True,True
+JDW0584,MK10,Kecerdasan Buatan,3,DSN040,KLP047,47,R01,60,Jumat,10:20,12:50,Siang,Pagi,620,770,Pagi,150,True,True,True,False,False,True,50.0,False,True,False,True
+JDW0585,MK05,Kalkulus,3,DSN020,KLP015,48,R20,25,Kamis,07:00,09:30,Siang,Pagi,420,570,Pagi,150,True,True,True,True,False,True,50.0,True,False,True,True
+JDW0586,MK12,Pembelajaran Mesin,3,DSN047,KLP033,49,R11,60,Selasa,07:00,09:30,Pagi,Sore,420,570,Pagi,150,True,True,True,False,True,False,50.0,True,True,False,True
+JDW0587,MK17,Komputer Vision,3,DSN066,KLP019,50,R21,60,Rabu,13:00,15:30,Siang,Siang,780,930,Siang,150,True,True,True,False,True,True,100.0,True,True,True,True
+JDW0588,MK09,Sistem Operasi,3,DSN035,KLP030,42,R35,25,Kamis,10:20,12:50,Sore,Siang,620,770,Pagi,150,True,True,True,True,False,False,0.0,True,True,True,True
+JDW0589,MK01,Algoritma dan Pemrograman,3,DSN001,KLP059,32,R02,25,Selasa,16:20,18:50,Siang,Siang,980,1130,Sore,150,True,True,True,True,False,False,0.0,True,True,True,True
+JDW0590,MK10,Kecerdasan Buatan,3,DSN038,KLP029,22,R10,50,Selasa,14:40,17:10,Siang,Sore,880,1030,Siang,150,True,True,True,False,True,False,50.0,True,False,True,True
+JDW0591,MK01,Algoritma dan Pemrograman,3,DSN004,KLP036,44,R21,60,Jumat,08:40,11:10,Pagi,Sore,520,670,Pagi,150,True,True,True,False,True,False,50.0,True,True,True,True
+JDW0592,MK03,Struktur Data,3,DSN012,KLP045,50,R15,25,Selasa,13:00,15:30,Pagi,Siang,780,930,Siang,150,True,True,True,True,False,True,50.0,False,False,True,True
+JDW0593,MK12,Pembelajaran Mesin,3,DSN047,KLP017,23,R14,40,Rabu,14:40,17:10,Pagi,Siang,880,1030,Siang,150,True,True,True,False,False,True,50.0,True,False,True,True
+JDW0594,MK13,Pemrograman Web,3,DSN049,KLP038,43,R12,40,Selasa,13:00,15:30,Pagi,Pagi,780,930,Siang,150,True,True,True,True,False,False,0.0,False,True,False,True
+JDW0595,MK18,Sains Data,3,DSN072,KLP030,42,R25,50,Kamis,14:40,17:10,Sore,Siang,880,1030,Siang,150,True,True,True,False,False,True,50.0,True,False,True,True
+JDW0596,MK17,Komputer Vision,3,DSN067,KLP049,36,R01,60,Rabu,07:00,09:30,Pagi,Sore,420,570,Pagi,150,True,True,True,False,True,False,50.0,False,False,False,False
+JDW0597,MK10,Kecerdasan Buatan,3,DSN038,KLP024,20,R13,45,Kamis,08:40,11:10,Siang,Sore,520,670,Pagi,150,True,True,True,False,False,False,0.0,True,True,True,True
+JDW0598,MK14,Keamanan Informasi,3,DSN053,KLP040,37,R23,60,Jumat,13:00,15:30,Pagi,Siang,780,930,Siang,150,True,True,True,False,False,True,50.0,False,True,False,True
+JDW0599,MK17,Komputer Vision,3,DSN067,KLP006,35,R04,30,Jumat,13:00,15:30,Pagi,,780,930,Siang,150,True,True,True,True,False,,,False,True,True,True
+JDW0600,MK03,Struktur Data,3,DSN012,KLP035,43,R31,60,Kamis,14:40,17:10,Pagi,Siang,880,1030,Siang,150,True,True,True,False,False,True,50.0,False,True,True,True

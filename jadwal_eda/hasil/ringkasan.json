@@ -1,0 +1,167 @@
+{
+  "baris": 600,
+  "kolom_awal": 14,
+  "mata_kuliah": 18,
+  "dosen": 72,
+  "kelompok": 60,
+  "ruang": 35,
+  "missing": {
+    "id_jadwal": 0,
+    "kode_matakuliah": 0,
+    "nama_matakuliah": 0,
+    "sks": 0,
+    "id_dosen": 0,
+    "id_kelompok": 0,
+    "jumlah_mahasiswa": 0,
+    "id_ruang": 0,
+    "kapasitas_ruang": 0,
+    "hari": 0,
+    "jam_mulai": 0,
+    "jam_selesai": 0,
+    "preferensi_dosen": 47,
+    "preferensi_mahasiswa": 46
+  },
+  "duplikat_penuh": 0,
+  "duplikat_id_jadwal": 0,
+  "duplikat_matkul_kelompok": 0,
+  "waktu_invalid": 0,
+  "durasi_sks_invalid": 0,
+  "kapasitas_invalid": 0,
+  "kapasitas_kurang": 182,
+  "preferensi_dosen_valid_n": 553,
+  "preferensi_mahasiswa_valid_n": 554,
+  "preferensi_keduanya_valid_n": 512,
+  "cocok_dosen_persen": 38.52,
+  "cocok_mahasiswa_persen": 35.02,
+  "rata_skor_keselarasan": 37.4,
+  "bentrok_baris_total": 530,
+  "bentrok_baris": {
+    "dosen": 252,
+    "kelompok": 305,
+    "ruang": 420
+  },
+  "bentrok_pasangan": {
+    "dosen": 161,
+    "kelompok": 211,
+    "ruang": 377
+  },
+  "hari": {
+    "Senin": 124,
+    "Selasa": 117,
+    "Rabu": 114,
+    "Kamis": 129,
+    "Jumat": 116
+  },
+  "periode": {
+    "Pagi": 310,
+    "Siang": 191,
+    "Sore": 99
+  },
+  "statistik": {
+    "sks": {
+      "mean": 2.96,
+      "median": 3.0,
+      "mode": 3.0,
+      "std": 0.21,
+      "var": 0.04,
+      "min": 2.0,
+      "q1": 3.0,
+      "q3": 3.0,
+      "max": 3.0,
+      "skew": -4.401,
+      "kurtosis_excess": 17.424,
+      "iqr_outlier": 27,
+      "z_outlier": 27,
+      "lower_iqr": 3.0,
+      "upper_iqr": 3.0
+    },
+    "jumlah_mahasiswa": {
+      "mean": 33.88,
+      "median": 32.0,
+      "mode": 32.0,
+      "std": 9.56,
+      "var": 91.44,
+      "min": 20.0,
+      "q1": 26.0,
+      "q3": 42.0,
+      "max": 50.0,
+      "skew": 0.229,
+      "kurtosis_excess": -1.257,
+      "iqr_outlier": 0,
+      "z_outlier": 0,
+      "lower_iqr": 2.0,
+      "upper_iqr": 66.0
+    },
+    "kapasitas_ruang": {
+      "mean": 43.55,
+      "median": 45.0,
+      "mode": 60.0,
+      "std": 13.57,
+      "var": 184.04,
+      "min": 25.0,
+      "q1": 30.0,
+      "q3": 60.0,
+      "max": 60.0,
+      "skew": -0.118,
+      "kurtosis_excess": -1.443,
+      "iqr_outlier": 0,
+      "z_outlier": 0,
+      "lower_iqr": -15.0,
+      "upper_iqr": 105.0
+    },
+    "durasi_menit": {
+      "mean": 147.75,
+      "median": 150.0,
+      "mode": 150.0,
+      "std": 10.37,
+      "var": 107.62,
+      "min": 100.0,
+      "q1": 150.0,
+      "q3": 150.0,
+      "max": 150.0,
+      "skew": -4.401,
+      "kurtosis_excess": 17.424,
+      "iqr_outlier": 27,
+      "z_outlier": 27,
+      "lower_iqr": 150.0,
+      "upper_iqr": 150.0
+    }
+  },
+  "korelasi": {
+    "sks": {
+      "sks": 1.0,
+      "jumlah_mahasiswa": 0.017,
+      "kapasitas_ruang": -0.011,
+      "durasi_menit": 1.0,
+      "skor_keselarasan": -0.001
+    },
+    "jumlah_mahasiswa": {
+      "sks": 0.017,
+      "jumlah_mahasiswa": 1.0,
+      "kapasitas_ruang": -0.017,
+      "durasi_menit": 0.017,
+      "skor_keselarasan": 0.097
+    },
+    "kapasitas_ruang": {
+      "sks": -0.011,
+      "jumlah_mahasiswa": -0.017,
+      "kapasitas_ruang": 1.0,
+      "durasi_menit": -0.011,
+      "skor_keselarasan": -0.032
+    },
+    "durasi_menit": {
+      "sks": 1.0,
+      "jumlah_mahasiswa": 0.017,
+      "kapasitas_ruang": -0.011,
+      "durasi_menit": 1.0,
+      "skor_keselarasan": -0.001
+    },
+    "skor_keselarasan": {
+      "sks": -0.001,
+      "jumlah_mahasiswa": 0.097,
+      "kapasitas_ruang": -0.032,
+      "durasi_menit": -0.001,
+      "skor_keselarasan": 1.0
+    }
+  }
+}

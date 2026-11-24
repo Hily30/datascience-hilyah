@@ -145,7 +145,7 @@ for ref in [
  '[5] S. Kapoor dan A. Narayanan, “Leakage and the reproducibility crisis in machine-learning-based science,” Patterns, vol. 4, no. 9, art. 100804, 2023. https://doi.org/10.1016/j.patter.2023.100804',
  '[6] M. L. Waskom, “seaborn: statistical data visualization,” Journal of Open Source Software, vol. 6, no. 60, art. 3021, 2021. https://doi.org/10.21105/joss.03021']:
  p(ref)
-p('Acuan nonjurnal untuk struktur tugas: LAPORAN EXPLORATORY DATA ANALYSIS (1).pdf dan materi kuliah minggu 2–5 yang diberikan, serta README proyek contoh PlateGuard MBG (https://github.com/cupiz/datascience-mbg-eda). Data dan hasil numerik laporan ini dihasilkan sendiri melalui simulasi.')
+
 doc.add_page_break()
 heading('Lampiran A. Hasil Reproduksi dan Pengujian')
 v=json.loads((R/'hasil/hasil_pengujian.json').read_text(encoding='utf-8'))

@@ -1,5 +1,5 @@
 {
-  "timestamp_jakarta": "2026-11-23T10:59:57+07:00",
+  "timestamp_jakarta": "2026-11-24T09:01:13+07:00",
   "python": "3.13.1",
   "platform": "Windows-10-10.0.19045-SP0",
   "versions": {
@@ -12,16 +12,18 @@
   },
   "dataset_sha256": "1386b4111e7bc0bf96ed44228d46d6e03f774b1a0ffc8c6ff50a0518b0aea860",
   "unittest_returncode": 0,
-  "unittest_log": "test_contoh_bentrok_data_dummy (test_analisis.TestAudit.test_contoh_bentrok_data_dummy) ... ok\ntest_contoh_kapasitas_dan_preferensi (test_analisis.TestAudit.test_contoh_kapasitas_dan_preferensi) ... ok\ntest_dataset (test_analisis.TestAudit.test_dataset) ... ok\ntest_invalid_dan_missing (test_analisis.TestAudit.test_invalid_dan_missing) ... ok\ntest_missing_preferensi_saat_waktu_valid (test_analisis.TestAudit.test_missing_preferensi_saat_waktu_valid) ... ok\ntest_overlap_dan_batas (test_analisis.TestAudit.test_overlap_dan_batas) ... ok\n\n----------------------------------------------------------------------\nRan 6 tests in 8.367s\n\nOK",
+  "unittest_log": "test_contoh_bentrok_data_dummy (test_analisis.TestAudit.test_contoh_bentrok_data_dummy) ... ok\ntest_contoh_kapasitas_dan_preferensi (test_analisis.TestAudit.test_contoh_kapasitas_dan_preferensi) ... ok\ntest_dataset (test_analisis.TestAudit.test_dataset) ... ok\ntest_invalid_dan_missing (test_analisis.TestAudit.test_invalid_dan_missing) ... ok\ntest_missing_preferensi_saat_waktu_valid (test_analisis.TestAudit.test_missing_preferensi_saat_waktu_valid) ... ok\ntest_overlap_dan_batas (test_analisis.TestAudit.test_overlap_dan_batas) ... ok\n\n----------------------------------------------------------------------\nRan 6 tests in 7.547s\n\nOK",
   "dashboard_error_count": 0,
   "dashboard_exception_count": 0,
   "dashboard_default_metrics": {
+    "Total seluruh jadwal": "600",
     "Jadwal ditampilkan": "600",
     "Baris terlibat bentrok": "530",
     "Ruang kurang kapasitas": "182",
     "Skor keselarasan rata-rata": "37.4/100"
   },
   "dashboard_filter_senin_metrics": {
+    "Total seluruh jadwal": "600",
     "Jadwal ditampilkan": "124",
     "Baris terlibat bentrok": "113",
     "Ruang kurang kapasitas": "29",
